@@ -1,38 +1,106 @@
-.App {
+/* Desktop - 1 */
+
+html {
+  position: center;
+  width: 1440px;
+  height: 10168px;
+
+  background: black;
+}
+
+/* background
+
+background: url("assets/photo-1526925539332-aa3b66e35444.png");
+background-repeat: no-repeat;
+background-size: 1024px 1440px; */
+
+/* First Page */
+/*  */
+
+/* Line 1 */
+/*
+position: absolute;
+width: 82.01px;
+height: 0px;
+left: 679px;
+top: 555px;
+
+border: 5px solid rgba(255, 255, 255, 0.4);
+transform: rotate(0.7deg); */
+
+/* DOR */
+#dor {
+  position: absolute;
+  width: 278px;
+  height: 86px;
+  left: 850px;
+  top: 257px;
+
+  font-family: Archivo Black;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 70px;
   text-align: center;
+
+  color: #219dcf;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* altumcode-oZ61KFUQsus-unsplash 1 */
+
+/* position: absolute;
+width: 1440px;
+height: 1024px;
+left: 14px;
+top: 0px; */
+#fullstack {
+  position: absolute;
+  width: 970.27px;
+  height: 33px;
+  left: 249px;
+  top: 351px;
+
+  font-family: Archivo Black;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 35px;
+  text-align: center;
+
+  color: #ffffff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* I'm project addicted and inspiring video game developer */
+#project {
+  position: absolute;
+  width: 970.27px;
+  height: 33px;
+  left: 237px;
+  top: 453px;
+
+  font-family: Archivo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 26px;
+  text-align: center;
+
+  color: rgba(255, 255, 255, 0.4);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+#heythere {
+  position: absolute;
+  width: 924.59px;
+  height: 125px;
+  left: 204px;
+  top: 257px;
 
-.App-link {
-  color: #61dafb;
-}
+  font-family: Archivo Black;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 70px;
+  text-align: center;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  color: #ffffff;
 }
