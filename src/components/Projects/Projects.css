@@ -1,0 +1,110 @@
+/* Connect four in space */
+#Project1 {
+  position: absolute;
+  width: 25vw;
+  opacity: 100%;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  top: 1951px;
+  right: 1060px;
+  border-radius: 15px;
+}
+
+#Project2 {
+  position: absolute;
+  opacity: 100%;
+  width: 25vw;
+  left: 363px;
+  top: 2333px;
+  border-radius: 15px;
+}
+
+#Project3 {
+  position: absolute;
+  opacity: 100%;
+  width: 25vw;
+  top: 2096px;
+  left: 1079px;
+  border-radius: 15px;
+}
+
+#title1 {
+  position: absolute;
+  right: 27.333px;
+  top: 14px;
+  color: black;
+}
+
+#Descrip1 {
+  color: black;
+  position: absolute;
+  right: 30px;
+  left: 30px;
+  bottom: 7px;
+  top: 61px;
+}
+
+#project1Card {
+  width: 300px;
+  height: 122px;
+  position: absolute;
+  left: 30px;
+  top: 2035px;
+}
+
+#project2Card {
+  width: 300px;
+  height: 150px;
+  position: absolute;
+  left: 30px;
+  top: 2470px;
+}
+
+#Descrip2 {
+  color: black;
+  position: absolute;
+  right: 30px;
+  left: 30px;
+  bottom: 7px;
+  top: 61px;
+}
+
+#title2 {
+  position: absolute;
+  right: 27.333px;
+  top: 14px;
+  color: black;
+}
+
+#project3Card {
+  position: absolute;
+  width: 300px;
+  height: 150px;
+  top: 2225px;
+  left: 1584px;
+}
+
+#title3 {
+  position: absolute;
+  left: 38.983px;
+  top: 14px;
+  color: black;
+}
+
+#Descrip3 {
+  color: black;
+  position: absolute;
+  right: 30px;
+  left: 30px;
+  bottom: 7px;
+  top: 61px;
+}
+
+hr {
+  height: 5px;
+  background-color: #2c3d67;
+  width: 246px;
+  margin-left: 28px;
+  margin-top: 48px;
+}
