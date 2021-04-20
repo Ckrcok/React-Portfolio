@@ -18,9 +18,9 @@ class App extends React.Component {
         "A website dedicted to my pet bunny and his model ablities, build with express.js & MongoDB"
     },
     {
-      name: "Jean Model Website",
+      name: "Buzz",
       description:
-        "  A website dedicted to my pet bunny and his model ablities, build with express.js & MongoDB"
+        "  A coffee collector web site, with mobile first design build with another pogramer and UXDI designers built with -Django, Python, PostgresSQL"
     }
   ];
 
@@ -38,6 +38,7 @@ class App extends React.Component {
         <div id="bg3">
           <Projects projects={this.projects} />
         </div>
+        <div id="bg4"></div>
       </div>
     );
   }

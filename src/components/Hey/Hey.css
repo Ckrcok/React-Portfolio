@@ -17,9 +17,7 @@
 #fullstack {
   width: 1330px;
   height: 33px;
-
   top: 351px;
-  margin: auto;
   font-family: Archivo Black;
   font-style: normal;
   font-weight: normal;
@@ -28,6 +26,7 @@
   text-align: center;
   z-index: 2;
   color: #ffffff;
+  margin-left: 65px;
 }
 
 #project {
@@ -35,7 +34,6 @@
   height: 33px;
   left: 237px;
   top: 425px;
-  margin: auto;
   font-family: Archivo;
   font-style: normal;
   font-weight: normal;
@@ -44,6 +42,7 @@
   text-align: center;
   z-index: 2;
   color: rgba(255, 255, 255, 0.4);
+  margin-left: 64px;
 }
 
 #heythere {
@@ -51,7 +50,7 @@
   height: 125px;
 
   top: 257px;
-  margin: auto;
+  margin-left: 145px;
   font-family: Archivo Black;
   font-style: normal;
   font-weight: normal;
