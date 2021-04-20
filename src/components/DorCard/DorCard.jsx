@@ -10,17 +10,17 @@ function DorCard() {
       </div>
       <p className="subtitle is-5">Toronto, Canada</p>
       <hr id="diveder" />
-      <div>link to my github</div>
-      <div>link to my github</div>
-      <div>link to my github</div>
-      <div>link to my github</div>
+      <div className="fancy">link to my github</div>
+      <div className="fancy">link to my github</div>
+      <div className="fancy">link to my github</div>
+      <div className="fancy">link to my github</div>
 
       <hr id="diveder" />
       <h5>Project Sample</h5>
-      <div>First project</div>
-      <div>second project</div>
-      <div>third project</div>
-      <div>fourth project</div>
+      <div className="fancy">First project</div>
+      <div className="fancy">second project</div>
+      <div className="fancy">third project</div>
+      <div className="fancy">fourth project</div>
     </span>
   );
 }

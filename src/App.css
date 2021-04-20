@@ -28,7 +28,7 @@ border: 5px solid rgba(255, 255, 255, 0.4);
 transform: rotate(0.7deg); */
 
 /* DOR */
-#dor {
+/* #dor {
   width: 415px;
   height: 86px;
   left: 47vw;
@@ -41,7 +41,7 @@ transform: rotate(0.7deg); */
   text-align: center;
   color: #219dcf;
   z-index: 2;
-}
+} */
 
 /* #rec {
   z-index: -1;
@@ -56,7 +56,7 @@ width: 1440px;
 height: 1024px;
 left: 14px;
 top: 0px; */
-#fullstack {
+/* #fullstack {
   width: 1330px;
   height: 33px;
 
@@ -70,10 +70,10 @@ top: 0px; */
   text-align: center;
   z-index: 2;
   color: #ffffff;
-}
+} */
 
 /* I'm project addicted and inspiring video game developer */
-#project {
+/* #project {
   width: 1330px;
   height: 33px;
   left: 237px;
@@ -87,8 +87,8 @@ top: 0px; */
   text-align: center;
   z-index: 2;
   color: rgba(255, 255, 255, 0.4);
-}
-
+} */
+/*
 #heythere {
   width: 1065.59px;
   height: 125px;
@@ -102,16 +102,16 @@ top: 0px; */
   line-height: 70px;
   z-index: 2;
   color: #ffffff;
-}
+} */
 
-#line1 {
+/* #line1 {
   width: 82.01px;
   height: 0px;
 
   border: 5px solid rgba(255, 255, 255, 0.4);
   transform: rotate(0.7deg);
   margin: auto;
-}
+} */
 
 #bg1 {
   z-index: 1;
@@ -126,17 +126,25 @@ top: 0px; */
 }
 
 #bg2 {
+  display: flex;
   z-index: 1;
   width: 100vw;
   height: 100vh;
   background-size: 100vw 100vh;
-  opacity: 40%;
+  opacity: 100%;
   background-repeat: no-repeat;
   background-image: url("./assets/scott-webb-VL-OvBppmzI-unsplash.jpg");
 }
 
-#insideHey {
-  padding-top: 30vh;
+#bg3 {
+  display: flex;
+  z-index: 1;
+  width: 100vw;
+  height: 100vh;
+  background-size: 100vw 100vh;
+  opacity: 100%;
+  background-repeat: no-repeat;
+  background-image: url("./assets/kiran-ck-6rXpQzfCYlw-unsplash.jpg");
 }
 
 img {

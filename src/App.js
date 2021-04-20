@@ -3,6 +3,7 @@ import "./App.css";
 import Hey from "./components/Hey/Hey.jsx";
 import DorCard from "./components/DorCard/DorCard.jsx";
 import Skills from "./components/Skills/Skills.jsx";
+import Projects from "./components/Projects/Projects.jsx";
 
 function App() {
   return (
@@ -14,6 +15,9 @@ function App() {
         <Skills />
 
         <DorCard />
+      </div>
+      <div id="bg3">
+        <Projects />
       </div>
     </div>
   );

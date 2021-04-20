@@ -1,18 +1,41 @@
 import React from "react";
+import "./Skills.css";
 
 function Skills() {
   return (
-    <div>
-      <h3>Skills I could bring to your organization</h3>
-      <h1>Skills:</h1>
-      <p>- my first skill</p>
-      <p>- my first skill</p>
-      <p>- my first skill</p>
-      <p>- my first skill</p>
-      <p>- my first skill</p>
-      <p>- my first skill</p>
-      <p>- my first skill</p>
-      <p>- my first skill</p>
+    <div id="SkillsDiv">
+      <h3 className="subtitle is-2" id="Skills">
+        Skills I could bring to your organization
+      </h3>
+      <div id="MySkill">
+        <h1 className="title is-1" id="Head">
+          Skills:
+        </h1>
+        <p className="subtitle is-4" id="para">
+          - my first skill
+        </p>
+        <p className="subtitle is-4" id="para">
+          - my first skill
+        </p>
+        <p className="subtitle is-4" id="para">
+          - my first skill
+        </p>
+        <p className="subtitle is-4" id="para">
+          - my first skill
+        </p>
+        <p className="subtitle is-4" id="para">
+          - my first skill
+        </p>
+        <p className="subtitle is-4" id="para">
+          - my first skill
+        </p>
+        <p className="subtitle is-4" id="para">
+          - my first skill
+        </p>
+        <p className="subtitle is-4" id="para">
+          - my first skill
+        </p>
+      </div>
     </div>
   );
 }

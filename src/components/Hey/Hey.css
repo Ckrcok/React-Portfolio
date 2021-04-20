@@ -1,39 +1,74 @@
-#dorCard {
-  display: flex;
-  justify-content: center;
+#dor {
+  width: 415px;
+  height: 86px;
+  left: 47vw;
+  top: 257px;
+  margin: auto;
+  font-family: Archivo Black;
+  font-style: normal;
+  font-size: 64px;
+  line-height: 70px;
   text-align: center;
-  width: 300px;
-  height: 480px;
-  left: 73vw;
-  top: 10vh;
-  flex-flow: column;
+  color: #219dcf;
+  z-index: 2;
 }
 
-img {
-  opacity: 100%;
-  border-radius: 223.5px;
-  transform: matrix(-1, 0, 0, 1, 0, 0);
-  width: 102px;
-  height: 94px;
-  left: 1078px;
-  top: 1214px;
+#fullstack {
+  width: 1330px;
+  height: 33px;
+
+  top: 351px;
   margin: auto;
+  font-family: Archivo Black;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 35px;
+  text-align: center;
+  z-index: 2;
+  color: #ffffff;
 }
 
-#diveder {
-  background-color: #f5f5f5;
-  border: 1px solid #777677;
-  display: block;
-  width: 59px;
+#project {
+  width: 1330px;
+  height: 33px;
+  left: 237px;
+  top: 425px;
+  margin: auto;
+  font-family: Archivo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 115px;
+  text-align: center;
+  z-index: 2;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+#heythere {
+  width: 1065.59px;
+  height: 125px;
+
+  top: 257px;
+  margin: auto;
+  font-family: Archivo Black;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 4vw;
+  line-height: 70px;
+  z-index: 2;
+  color: #ffffff;
+}
+
+#line1 {
+  width: 82.01px;
   height: 0px;
-  margin: 1vh;
-}
 
-#card-id {
-  display: flex;
-}
-
-#name {
-  align-self: center;
+  border: 5px solid rgba(255, 255, 255, 0.4);
+  transform: rotate(0.7deg);
   margin: auto;
+}
+
+#insideHey {
+  padding-top: 30vh;
 }

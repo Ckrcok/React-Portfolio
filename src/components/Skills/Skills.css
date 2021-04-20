@@ -1,39 +1,22 @@
-#dorCard {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  width: 300px;
-  height: 480px;
-  left: 73vw;
-  top: 10vh;
-  flex-flow: column;
+#SkillsDiv {
+  margin-top: 15vh;
+  margin-left: 15vw;
 }
 
-img {
-  opacity: 100%;
-  border-radius: 223.5px;
-  transform: matrix(-1, 0, 0, 1, 0, 0);
-  width: 102px;
-  height: 94px;
-  left: 1078px;
-  top: 1214px;
-  margin: auto;
+#Skills {
+  color: #219dcf;
 }
 
-#diveder {
-  background-color: #f5f5f5;
-  border: 1px solid #777677;
-  display: block;
-  width: 59px;
-  height: 0px;
-  margin: 1vh;
+#MySkill {
+  color: #ffffff;
 }
 
-#card-id {
-  display: flex;
+#Head {
+  color: #ffffff;
 }
 
-#name {
-  align-self: center;
-  margin: auto;
+#para {
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-top: 1vh;
 }

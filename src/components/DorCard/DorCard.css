@@ -2,10 +2,10 @@
   display: flex;
   justify-content: center;
   text-align: center;
-  width: 300px;
-  height: 480px;
-  left: 73vw;
-  top: 10vh;
+  width: 400px;
+  height: 566px;
+  left: 25vw;
+  top: 15vh;
   flex-flow: column;
 }
 
@@ -36,4 +36,23 @@ img {
 #name {
   align-self: center;
   margin: auto;
+}
+
+.fancy {
+  padding: 0 10px;
+  line-height: 1.4em;
+  border-radius: 50px;
+  background: radial-gradient(farthest-side, #000 98%, #0000) -1.4em 0/1.4em 1.4em,
+    linear-gradient(90deg, #000 calc(100% - 0.7em), #0000 0) left/0% 100%;
+  background-repeat: no-repeat;
+  transition: 0.3s;
+}
+.fancy:hover {
+  color: #fff;
+  background-size: 1.4em 1.4em, 100% 100%;
+  background-position: right, left;
+}
+
+* {
+  opacity: 100%;
 }
