@@ -6,6 +6,7 @@ function DorCard() {
     <span id="dorCard" className="card">
       <div className="title" id="card-id">
         <img
+          alt="Dor's Avatar"
           id="Avatar"
           src="https://avatars.githubusercontent.com/u/56084381?v=4"
         />
