@@ -6,7 +6,7 @@
   margin-left: 0px;
   margin-bottom: 0px;
   margin-top: 0px;
-  top: 79px !important;
+  top: -122.951px !important;
   right: 1066px !important;
   border-radius: 15px;
 }
@@ -14,17 +14,17 @@
 #Project2 {
   position: absolute;
   opacity: 100%;
-  width: 25vw;
+  width: 35vw;
   top: 460px !important;
-  left: 375px !important;
+  left: 278px !important;
   border-radius: 15px;
 }
 
 #Project3 {
   position: absolute;
   opacity: 100%;
-  width: 25vw;
-  top: 230px;
+  width: 19vw;
+  top: 115px !important;
   left: 1079px;
   border-radius: 15px;
 }
@@ -49,51 +49,55 @@
   position: absolute;
   width: 300px;
   height: 170px;
-  top: 389px !important;
-  left: 1574px !important;
+  top: 347px !important;
+  left: 1416px;
 }
 
 #title1 {
   position: absolute;
-  right: 27.333px;
-  top: 14px;
-  color: black;
+  color: white;
+  top: 8px;
+  right: -25px;
+  left: -4.433px;
+  bottom: 75px;
 }
 
 #Descrip1 {
-  color: black;
+  color: white;
   position: absolute;
   right: 30px;
-  left: 30px;
+  left: -3px;
   bottom: 7px;
   top: 61px;
 }
 
 #Descrip2 {
-  color: black;
+  color: white;
   position: absolute;
   right: 30px;
-  left: 30px;
+  left: -3px;
   bottom: 7px;
   top: 61px;
 }
 
 #title2 {
   position: absolute;
-  right: 27.333px;
-  top: 14px;
-  color: black;
+  color: white;
+
+  right: -60px;
+  top: 11px;
+  left: -1.45px;
 }
 
 #title3 {
   position: absolute;
-  left: 130.983px;
-  top: 14px;
-  color: black;
+  left: 35.983px;
+  top: 3px;
+  color: white;
 }
 
 #Descrip3 {
-  color: black;
+  color: white;
   position: absolute;
   right: 30px;
   bottom: 7px;
@@ -104,7 +108,7 @@
 hr {
   height: 5px;
   background-color: #2c3d67;
-  width: 246px;
-  margin-left: 28px;
+  width: 330px;
+  margin-left: -6px;
   margin-top: 48px;
 }

@@ -5,8 +5,8 @@ function Projects(props) {
   return (
     <div>
       <div>
-        <div id="project1Card" className="card">
-          <h1 className="title is-4" id="title1">
+        <div id="project1Card">
+          <h1 className="title is-3" id="title1">
             {props.projects[0].name}
           </h1>
           <hr />
@@ -16,13 +16,13 @@ function Projects(props) {
         </div>
         <img
           id="Project1"
-          src="https://i.imgur.com/tPhb4Pw.png"
+          src="https://i.imgur.com/SWpyJff.png"
           alt="Connect-Four In Space"
         />
       </div>
       <div>
-        <div id="project2Card" className="card">
-          <h1 className="title is-4" id="title2">
+        <div id="project2Card">
+          <h1 className="title is-3" id="title2">
             {props.projects[1].name}
           </h1>
           <hr />
@@ -32,11 +32,11 @@ function Projects(props) {
         </div>
         <img
           id="Project2"
-          src="https://i.imgur.com/QlGJoP3.png"
+          src="https://i.imgur.com/ZSgNeT5.png"
           alt="Jean Model Website"
         />
-        <div id="project3Card" className="card">
-          <h1 className="title is-4" id="title3">
+        <div id="project3Card">
+          <h1 className="title is-2" id="title3">
             {props.projects[2].name}
           </h1>
           <hr />
@@ -44,7 +44,7 @@ function Projects(props) {
             {props.projects[2].description}
           </p>
         </div>
-        <img id="Project3" src="https://i.imgur.com/DJtGHi4.png" alt="Buzz" />
+        <img id="Project3" src="https://i.imgur.com/5KqoaSp.png" alt="Buzz" />
       </div>
     </div>
   );
