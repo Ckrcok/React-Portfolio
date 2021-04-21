@@ -5,6 +5,7 @@ import Hey from "./components/Hey/Hey.jsx";
 import DorCard from "./components/DorCard/DorCard.jsx";
 import Skills from "./components/Skills/Skills.jsx";
 import Projects from "./components/Projects/Projects.jsx";
+import Timeline from "./components/Timeline/Timeline.jsx";
 
 class App extends React.Component {
   projects = [
@@ -38,7 +39,10 @@ class App extends React.Component {
         <div id="bg3">
           <Projects projects={this.projects} />
         </div>
-        <div id="bg4"></div>
+        <div id="bg4">
+          <Timeline />
+        </div>
+        <div id="bg5"></div>
       </div>
     );
   }
