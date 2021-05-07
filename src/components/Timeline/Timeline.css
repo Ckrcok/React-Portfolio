@@ -1,31 +1,212 @@
 #Niv {
+  width: 100vw;
   position: absolute;
   left: 846px !important;
   top: 1069px !important;
   color: white;
 }
 
-#firstLine{    height: 5px;
-    background-color: #2c3d67;
-    width: 330px;
-    margin-left: -224px;
-    margin-top: 48px;
+#firstLine {
+  height: 5px;
+  background-color: #2c3d67;
+  width: 330px;
+  margin-left: -224px;
+  margin-top: 48px;
 }
 
-#First{
+#First {
   position: absolute;
-  left: -470px !important;
-  top: 38px !important;
+  top: 33px !important;
+  left: -321px !important;
 }
 
-#FirstTimeLine{
+#FirstTimeLine {
   position: absolute;
   top: -1px !important;
   left: -83px !important;
   font-size: 200%;
 }
 
-#secondLine{
+#secondLine {
   position: absolute;
   left: 159px !important;
+}
+
+#Second {
+  position: absolute;
+  left: 495px !important;
+  top: 110px !important;
+}
+
+#SecondTimeLine {
+  font-size: 200%;
+  position: absolute;
+  left: 305px !important;
+  top: 75px !important;
+}
+
+#thirdGroup {
+  position: absolute;
+  top: 251px !important;
+  left: -223px !important;
+}
+
+#Third {
+  position: absolute;
+  top: 33px !important;
+  left: -104px !important;
+}
+
+#thirdLine {
+}
+
+#thirdTimeLine {
+  position: absolute;
+  top: 0px !important;
+  left: 136px !important;
+  font-size: 200%;
+}
+
+#forthGroup {
+  width: 50%;
+  position: absolute;
+  top: 518px !important;
+  left: 150px !important;
+}
+
+#Forth {
+  position: absolute;
+  top: 30px !important;
+  left: 349px !important;
+}
+
+#forthTimeLine {
+  font-size: 200%;
+  position: absolute;
+  top: -1px !important;
+  left: 132px !important;
+}
+
+#fifthGroup {
+  position: absolute;
+  top: 662px !important;
+  left: -236px !important;
+}
+
+#Fifth {
+  position: absolute;
+  top: 33px !important;
+  left: -104px !important;
+}
+
+#fifthTimeLine {
+  position: absolute;
+  top: -2px !important;
+  left: 130px !important;
+  font-size: 200%;
+}
+
+#sixthGroup {
+  position: absolute;
+  top: 1030px !important;
+  left: 128px !important;
+  width: 50%;
+}
+
+#Sixth {
+  position: absolute;
+  top: 33px !important;
+  left: 325px !important;
+}
+
+#sixthTimeLine {
+  position: absolute;
+  top: -2px !important;
+  left: 109px !important;
+  font-size: 200%;
+}
+
+#seventeenthGroup {
+  position: absolute;
+  top: 1132px !important;
+  left: -238px !important;
+}
+
+#Seventeenth {
+  position: absolute;
+  top: 33px !important;
+  left: -159px !important;
+}
+
+#seventeenthTimeLine {
+  position: absolute;
+  top: -1px !important;
+  left: 138px !important;
+  font-size: 200%;
+}
+
+#eighteenthGroup {
+  position: absolute;
+  left: 118px !important;
+  top: 1229px !important;
+  width: 50%;
+}
+
+#Eighteenth {
+  position: absolute;
+  top: 32px !important;
+  left: 332px !important;
+}
+
+#eighteenthTimeLine {
+  position: absolute;
+  top: -2px !important;
+  left: 129px !important;
+  font-size: 200%;
+}
+
+#nineteenthGroup {
+  position: absolute;
+  top: 1349px !important;
+  left: -239px !important;
+}
+
+#Nineteenth {
+  position: absolute;
+  top: 33px !important;
+  left: -151px !important;
+}
+
+#nineteenthTimeLine {
+  position: absolute;
+  top: -2px !important;
+  left: 147px !important;
+  font-size: 200%;
+}
+
+#tenthGroup {
+  position: absolute;
+  top: 1488px !important;
+  left: 120px !important;
+  width: 50%;
+}
+
+#Tenth {
+  position: absolute;
+  top: 33px !important;
+  left: 331px !important;
+}
+
+#tenthTimeLine {
+  font-size: 200%;
+  position: absolute;
+  top: -2px !important;
+  left: 145px !important;
+}
+
+#you {
+  position: absolute;
+  top: 33px !important;
+  left: 425px !important;
+  color: #056dffff;
 }
