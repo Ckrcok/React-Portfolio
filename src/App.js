@@ -1,11 +1,12 @@
 // import logo from "./logo.svg";
 import "./App.css";
-import React, { Component } from "react";
+import React from "react";
 import Hey from "./components/Hey/Hey.jsx";
 import DorCard from "./components/DorCard/DorCard.jsx";
 import Skills from "./components/Skills/Skills.jsx";
 import Projects from "./components/Projects/Projects.jsx";
 import Timeline from "./components/Timeline/Timeline.jsx";
+import Contact from "./components/Contact/Contact.jsx";
 
 class App extends React.Component {
   projects = [
@@ -42,7 +43,9 @@ class App extends React.Component {
         <div id="bg4">
           <Timeline />
         </div>
-        <div id="bg5"></div>
+        <div id="bg5">
+          <Contact />
+        </div>
       </div>
     );
   }

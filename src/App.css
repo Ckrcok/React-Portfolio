@@ -2,116 +2,10 @@
 
 html {
   width: 1440px;
-  height: 10168px;
+  height: 5000px;
   margin: auto;
   background: #181818;
 }
-
-/* background
-
-background: url("assets/photo-1526925539332-aa3b66e35444.png");
-background-repeat: no-repeat;
-background-size: 1024px 1440px; */
-
-/* First Page */
-/*  */
-
-/* Line 1 */
-/*
-position: absolute;
-width: 82.01px;
-height: 0px;
-left: 679px;
-top: 555px;
-
-border: 5px solid rgba(255, 255, 255, 0.4);
-transform: rotate(0.7deg); */
-
-/* DOR */
-/* #dor {
-  width: 415px;
-  height: 86px;
-  left: 47vw;
-  top: 257px;
-  margin: auto;
-  font-family: Archivo Black;
-  font-style: normal;
-  font-size: 64px;
-  line-height: 70px;
-  text-align: center;
-  color: #219dcf;
-  z-index: 2;
-} */
-
-/* #rec {
-  z-index: -1;
-  width: 1440px;
-  height: 1024px;
-  border: 0;
-} */
-/* altumcode-oZ61KFUQsus-unsplash 1 */
-
-/* position: absolute;
-width: 1440px;
-height: 1024px;
-left: 14px;
-top: 0px; */
-/* #fullstack {
-  width: 1330px;
-  height: 33px;
-
-  top: 351px;
-  margin: auto;
-  font-family: Archivo Black;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 32px;
-  line-height: 35px;
-  text-align: center;
-  z-index: 2;
-  color: #ffffff;
-} */
-
-/* I'm project addicted and inspiring video game developer */
-/* #project {
-  width: 1330px;
-  height: 33px;
-  left: 237px;
-  top: 425px;
-  margin: auto;
-  font-family: Archivo;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 115px;
-  text-align: center;
-  z-index: 2;
-  color: rgba(255, 255, 255, 0.4);
-} */
-/*
-#heythere {
-  width: 1065.59px;
-  height: 125px;
-
-  top: 257px;
-  margin: auto;
-  font-family: Archivo Black;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 4vw;
-  line-height: 70px;
-  z-index: 2;
-  color: #ffffff;
-} */
-
-/* #line1 {
-  width: 82.01px;
-  height: 0px;
-
-  border: 5px solid rgba(255, 255, 255, 0.4);
-  transform: rotate(0.7deg);
-  margin: auto;
-} */
 
 #bg1 {
   z-index: 1;
@@ -120,7 +14,6 @@ top: 0px; */
   height: 100vh;
   opacity: 100%;
   background-repeat: no-repeat;
-  background-image: url("");
   background-size: 100vw 100vh;
   text-align: center;
 }
@@ -146,35 +39,33 @@ top: 0px; */
   width: 100vw;
   height: 100vh;
   opacity: 100%;
-  background-size: 50% 100%;
+  background-size: 50% 90%;
   background-repeat: no-repeat;
   background-image: url("./assets/kiran-ck-6rXpQzfCYlw-unsplash.png");
   position: absolute;
-
   background-position: 50% 50%;
 }
 
 #bg4 {
-
-width: 100%;
-height: 4080px;
-opacity: 100%;
-position: absolute;
-top: 1780px;
-left: -19px;
-background-size: 100% 47%;
-background-repeat: no-repeat;
-background-image: url("./assets/Plane.png");
-background-position: 52% 49%;
+  width: 100%;
+  height: 2688px;
+  opacity: 100%;
+  position: absolute;
+  top: 1780px;
+  left: -19px;
+  background-size: 70% 70%;
+  background-repeat: no-repeat;
+  background-image: url("./assets/Plane.png");
+  background-position: 50% 135%;
 }
 #bg5 {
   z-index: 2;
   width: 100%;
-  height: 4080px;
+  height: 50vh;
   background-size: 52% 50%;
   opacity: 100%;
   background-repeat: no-repeat;
-  background-color: white;
+  background-color: #181818;
   position: absolute;
   top: 4467px !important;
   left: -19px;

@@ -5,7 +5,13 @@ function Projects(props) {
   return (
     <div>
       <div>
-        <div id="project1Card">
+        <div
+          id="project1Card"
+          data-aos="fade-zoom-in"
+          data-aos-easing="ease-in-back"
+          data-aos-delay="300"
+          data-aos-offset="0"
+        >
           <h1 className="title is-3" id="title1">
             {props.projects[0].name}
           </h1>
@@ -21,7 +27,13 @@ function Projects(props) {
         />
       </div>
       <div>
-        <div id="project2Card">
+        <div
+          id="project2Card"
+          data-aos="fade-zoom-in"
+          data-aos-easing="ease-in-back"
+          data-aos-delay="300"
+          data-aos-offset="0"
+        >
           <h1 className="title is-3" id="title2">
             {props.projects[1].name}
           </h1>
@@ -35,7 +47,13 @@ function Projects(props) {
           src="https://i.imgur.com/ZSgNeT5.png"
           alt="Jean Model Website"
         />
-        <div id="project3Card">
+        <div
+          id="project3Card"
+          data-aos="fade-zoom-in"
+          data-aos-easing="ease-in-back"
+          data-aos-delay="300"
+          data-aos-offset="0"
+        >
           <h1 className="title is-2" id="title3">
             {props.projects[2].name}
           </h1>

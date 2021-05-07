@@ -8,6 +8,8 @@
   position: absolute;
   left: 1343px;
   top: 185px;
+  box-shadow: rgba(249, 249, 249, 0.11) 0px 30px 90px;
+  background-color: rgb(239, 239, 239);
 }
 
 #Avatar {

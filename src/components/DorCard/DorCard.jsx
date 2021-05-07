@@ -3,7 +3,14 @@ import "./DorCard.css";
 
 function DorCard() {
   return (
-    <span id="dorCard" className="card">
+    <span
+      id="dorCard"
+      className="card"
+      data-aos="flip-left"
+      data-aos-easing="ease-out-cubic"
+      data-aos-duration="2000"
+      data-aos-delay="2000"
+    >
       <div className="title" id="card-id">
         <img
           alt="Dor's Avatar"
