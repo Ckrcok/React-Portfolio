@@ -3,10 +3,14 @@
   left: 467px !important;
   top: 87px !important;
   right: 423px !important;
+  background-color: #2c3d67;
+  color: #f8f8f8;
 }
 
 #header {
   text-align: center;
+  color: white;
+  padding-top: 24px;
 }
 
 #contact-header {
