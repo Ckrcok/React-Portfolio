@@ -8,9 +8,6 @@ function Contact() {
         Want To Talk?
       </h1>
       <article className="message is-medium">
-        <div className="message-header">
-          <p id="message-header">Medium message</p>
-        </div>
         <div className="message-body" id="message-body">
           <div id="linkedin">
             <i class="fab fa-linkedin fa-2x">
