@@ -1,10 +1,14 @@
-/* Desktop - 1 */
-
 html {
   width: 1440px;
   height: 5000px;
   margin: auto;
   background: #181818;
+}
+
+#shapes {
+  z-index: -1;
+  position: absolute;
+  right: 1vw;
 }
 
 #bg1 {
@@ -43,7 +47,7 @@ html {
   opacity: 100%;
   background-size: 50% 90%;
   background-repeat: no-repeat;
-  background-image: url("./assets/kiran-ck-6rXpQzfCYlw-unsplash.png");
+  background-image: url("./assets/Pen.png");
   position: absolute;
   background-position: 50% 50%;
 }
@@ -60,6 +64,7 @@ html {
   background-image: url("./assets/Plane.png");
   background-position: 50% 135%;
 }
+
 #bg5 {
   z-index: 2;
   width: 100%;
@@ -72,8 +77,4 @@ html {
   top: 4467px !important;
   left: -19px;
   background-position: 52% 50%;
-}
-
-img {
-  opacity: 1%;
 }

@@ -7,6 +7,8 @@ import Skills from "./components/Skills/Skills.jsx";
 import Projects from "./components/Projects/Projects.jsx";
 import Timeline from "./components/Timeline/Timeline.jsx";
 import Contact from "./components/Contact/Contact.jsx";
+import { ReactComponent as Shapes } from "./assets/Shapes.svg";
+import { ReactComponent as Blob } from "./assets/blob.svg";
 
 class App extends React.Component {
   projects = [
@@ -29,8 +31,13 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
+        <div id="shapes">
+          <Shapes />
+        </div>
+        <div id="blob"></div>
         <div id="bg1">
           <Hey />
+          <Blob />
         </div>
         <div id="bg2">
           <Skills />
