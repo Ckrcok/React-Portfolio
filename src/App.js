@@ -32,7 +32,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <div id="shapes">
-          <Shapes />
+          <Shapes data-aos="zoom-out" data-aos-duration="3000" />
         </div>
         <div id="blob"></div>
         <div id="bg1">
