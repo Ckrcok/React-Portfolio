@@ -10,19 +10,19 @@ function Contact() {
       <article className="message is-medium">
         <div className="message-body" id="message-body">
           <div id="linkedin">
-            <i class="fab fa-linkedin fa-2x">
+            <i className="fab fa-linkedin fa-2x">
               {" "}
               <a href="https://www.linkedin.com/in/dorz/">DorZairi</a>
             </i>
           </div>
           <div id="gitHub">
-            <i class="fab fa-github-alt fa-2x">
+            <i className="fab fa-github-alt fa-2x">
               {" "}
               <a href="github.com/ckrcok">Ckrcok</a>
             </i>
           </div>
           <div id="Email">
-            <i class="fas fa-inbox fa-2x">
+            <i className="fas fa-inbox fa-2x">
               {" "}
               <a href="mailto:dorzairi@ymail.com"> Email </a>
             </i>

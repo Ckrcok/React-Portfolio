@@ -6,6 +6,7 @@ html {
   background-image: url("./assets/Toronto2.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
+  scroll-behavior: smooth;
 }
 
 #shapes {
@@ -42,7 +43,7 @@ html {
 
 #bg3 {
   z-index: 1;
-  top: 1878px;
+  top: 1976px !important;
   left: -0.5px;
   width: 100vw;
   height: 100vh;
@@ -58,12 +59,12 @@ html {
   height: 2688px;
   opacity: 100%;
   position: absolute;
-  top: 1780px;
+  top: 4369px !important;
   left: -19px;
   background-size: 70% 70%;
   background-repeat: no-repeat;
   background-image: url("./assets/Plane.png");
-  background-position: 50% 135%;
+  background-position: 50% 0%;
 }
 
 #bg5 {
@@ -75,7 +76,7 @@ html {
   background-repeat: no-repeat;
   background-color: #181818;
   position: absolute;
-  top: 4467px !important;
+  top: 6907px !important;
   left: -19px;
   background-position: 52% 50%;
 }

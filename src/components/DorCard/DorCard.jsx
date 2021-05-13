@@ -8,8 +8,7 @@ function DorCard() {
       className="card"
       data-aos="flip-left"
       data-aos-easing="ease-out-cubic"
-      data-aos-duration="2000"
-      data-aos-delay="2000"
+      data-aos-duration="1500"
     >
       <div className="title" id="card-id">
         <img
@@ -28,10 +27,18 @@ function DorCard() {
 
       <hr id="diveder" />
       <h5>Project Sample</h5>
-      <div className="fancy">First project</div>
-      <div className="fancy">second project</div>
-      <div className="fancy">third project</div>
-      <div className="fancy">fourth project</div>
+      <div className="fancy">
+        <a href="#project1">First project</a>
+      </div>
+      <div className="fancy">
+        <a href="#project2Card">second project</a>
+      </div>
+      <div className="fancy">
+        <a href="#project3">third project</a>
+      </div>
+      <div className="fancy">
+        <a href="#project4">fourth project</a>
+      </div>
     </span>
   );
 }
