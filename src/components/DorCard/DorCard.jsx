@@ -1,7 +1,7 @@
 import React from "react";
 import "./DorCard.css";
 
-function DorCard() {
+function DorCard(props) {
   return (
     <span
       id="dorCard"
@@ -27,17 +27,17 @@ function DorCard() {
 
       <hr id="diveder" />
       <h5>Project Sample</h5>
-      <div className="fancy">
-        <a href="#project-1">First project</a>
+      <div className="fancy" onClick={props.handleClick}>
+        First project
       </div>
-      <div className="fancy">
-        <a href="#Project2">second project</a>
+      <div className="fancy" onClick={props.handleClick}>
+        Second project
       </div>
-      <div className="fancy">
-        <a href="#project-3">third project</a>
+      <div className="fancy" onClick={props.handleClick}>
+        Third project
       </div>
-      <div className="fancy">
-        <a href="#project-4">fourth project</a>
+      <div className="fancy" onClick={props.handleClick}>
+        Fourth project
       </div>
     </span>
   );

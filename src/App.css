@@ -39,6 +39,7 @@ html {
   opacity: 100%;
   background-repeat: no-repeat;
   background-position: 33% 80%;
+  top: 1144px !important;
 }
 
 #bg3 {
@@ -59,7 +60,7 @@ html {
   height: 2688px;
   opacity: 100%;
   position: absolute;
-  top: 5053px !important;
+  top: 5167px !important;
   left: -19px;
   background-size: 70% 70%;
   background-repeat: no-repeat;

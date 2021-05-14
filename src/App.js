@@ -27,6 +27,27 @@ class App extends React.Component {
     }
   ];
 
+  handleClick(e) {
+    console.log("Click");
+    console.log(e.target.innerHTML);
+    if (e.target.innerHTML === "First project") {
+      window.scrollTo({
+        top: 2250,
+        behavior: "smooth"
+      });
+    } else if (e.target.innerHTML === "Second project") {
+      window.scrollTo({
+        top: 3150,
+        behavior: "smooth"
+      });
+    } else if (e.target.innerHTML === "Third project") {
+      window.scrollTo({
+        top: 4050,
+        behavior: "smooth"
+      });
+    }
+  }
+
   render() {
     return (
       <div className="App">
@@ -40,7 +61,7 @@ class App extends React.Component {
         <div id="bg2">
           <Skills />
 
-          <DorCard />
+          <DorCard handleClick={this.handleClick} />
         </div>
         <div id="bg3">
           <Projects projects={this.projects} />
