@@ -24,6 +24,11 @@ class App extends React.Component {
       name: "Buzz",
       description:
         "  A coffee collector web site, with mobile first design build with another pogramer and UXDI designers built with -Django, Python, PostgresSQL"
+    },
+    {
+      name: "Karmik",
+      description:
+        " Karmik gives you the freedom to create a board for every intention you desire to manifest. Karmik boasts full CRUD functionality and incorporates all of the MERN-stack technologies."
     }
   ];
 

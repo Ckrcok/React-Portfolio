@@ -29,6 +29,15 @@
   border-radius: 15px;
 }
 
+#Project4 {
+  position: absolute;
+  opacity: 100%;
+  width: 40vw;
+  left: 521px !important;
+  top: 183px !important;
+  border-radius: 15px;
+}
+
 #project1Card {
   width: 300px;
   height: 122px;
@@ -53,6 +62,14 @@
   left: 1663px !important;
 }
 
+#project4Card {
+  width: 300px;
+  height: 150px;
+  position: absolute;
+  top: 315px !important;
+  left: 6px !important;
+}
+
 #title1 {
   position: absolute;
   color: white;
@@ -60,6 +77,29 @@
   right: -25px;
   left: -4.433px;
   bottom: 75px;
+}
+
+#title2 {
+  position: absolute;
+  color: white;
+
+  right: -60px;
+  top: 11px;
+  left: -1.45px;
+}
+
+#title3 {
+  position: absolute;
+  left: 35.983px;
+  top: 3px;
+  color: white;
+}
+
+#title4 {
+  position: absolute;
+  left: 35.983px;
+  top: 3px;
+  color: white;
 }
 
 #Descrip1 {
@@ -80,22 +120,6 @@
   top: 61px;
 }
 
-#title2 {
-  position: absolute;
-  color: white;
-
-  right: -60px;
-  top: 11px;
-  left: -1.45px;
-}
-
-#title3 {
-  position: absolute;
-  left: 35.983px;
-  top: 3px;
-  color: white;
-}
-
 #Descrip3 {
   color: white;
   position: absolute;
@@ -103,6 +127,15 @@
   bottom: 7px;
   left: 36px;
   top: 57px;
+}
+
+#Descrip4 {
+  color: white;
+  position: absolute;
+  right: 30px;
+  left: -3px;
+  bottom: 7px;
+  top: 61px;
 }
 
 hr {
@@ -137,4 +170,15 @@ hr {
   right: 0px;
   left: -603px;
   top: 2191px !important;
+}
+
+#project-4 {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  left: 386px !important;
+  height: 1920px;
+  width: auto;
+
+  top: 2999px !important;
 }

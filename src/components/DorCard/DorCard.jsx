@@ -18,7 +18,9 @@ function DorCard(props) {
         />
         <h5 id="name">Dor Zairi</h5>
       </div>
-      <p className="subtitle is-5">Toronto, Canada</p>
+      <p className="subtitle is-5" id="living">
+        Toronto, Canada
+      </p>
       <hr id="diveder" />
       <div className="fancy">link to my github</div>
       <div className="fancy">link to my github</div>
@@ -26,7 +28,6 @@ function DorCard(props) {
       <div className="fancy">link to my github</div>
 
       <hr id="diveder" />
-      <h5>Project Sample</h5>
       <div className="fancy" onClick={props.handleClick}>
         First project
       </div>

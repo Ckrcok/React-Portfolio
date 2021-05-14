@@ -66,6 +66,24 @@ function Projects(props) {
         </div>
         <img id="Project3" src="https://i.imgur.com/5KqoaSp.png" alt="Buzz" />
       </div>
+      <div id="project-4">
+        <div
+          id="project4Card"
+          data-aos="fade-zoom-in"
+          data-aos-easing="ease-in-back"
+          data-aos-delay="300"
+          data-aos-offset="0"
+        >
+          <h1 className="title is-2" id="title3">
+            {props.projects[3].name}
+          </h1>
+          <hr />
+          <p className="subtitle is-6" id="Descrip4">
+            {props.projects[3].description}
+          </p>
+        </div>
+        <img id="Project4" src="https://i.imgur.com/ZGdlZ5y.png" alt="Buzz" />
+      </div>
     </div>
   );
 }
