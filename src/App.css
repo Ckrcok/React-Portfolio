@@ -46,7 +46,7 @@ html {
   top: 1976px !important;
   left: -0.5px;
   width: 100vw;
-  height: 100vh;
+  height: 3000px;
   opacity: 100%;
   background-size: 50% 90%;
   background-repeat: no-repeat;
@@ -59,7 +59,7 @@ html {
   height: 2688px;
   opacity: 100%;
   position: absolute;
-  top: 4369px !important;
+  top: 5053px !important;
   left: -19px;
   background-size: 70% 70%;
   background-repeat: no-repeat;

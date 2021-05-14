@@ -16,8 +16,8 @@
   opacity: 100%;
   width: 50vw;
   top: 460px !important;
-  left: 278px !important;
   border-radius: 15px;
+  left: 365px !important;
 }
 
 #Project3 {
@@ -25,7 +25,7 @@
   opacity: 100%;
   width: 19vw;
   top: 115px !important;
-  left: 1079px;
+  left: 955px !important;
   border-radius: 15px;
 }
 
@@ -34,7 +34,7 @@
   height: 122px;
   position: absolute;
   top: 157px !important;
-  left: 840px !important;
+  left: 1052px !important;
 }
 
 #project2Card {
@@ -42,7 +42,7 @@
   height: 150px;
   position: absolute;
   top: 540px !important;
-  left: 57px !important;
+  left: -96px !important;
 }
 
 #project3Card {
@@ -50,7 +50,7 @@
   width: 300px;
   height: 170px;
   top: 347px !important;
-  left: 1416px;
+  left: 1663px !important;
 }
 
 #title1 {
@@ -113,25 +113,28 @@ hr {
   margin-top: 48px;
 }
 
-#project1 {
+#project-1 {
   position: absolute;
   right: 0px;
-  bottom: 0px;
   left: 0px;
-  top: 178px !important;
+  top: 508px !important;
+  height: 940px;
+  width: auto;
 }
 
-#project2 {
+#project-2 {
   position: absolute;
   right: 0px;
   bottom: 0px;
-  bottom: -643px !important;
-  left: 405px !important;
+  left: 386px !important;
+  top: 903px !important;
+  height: 1920px;
+  width: auto;
 }
 
-#project3 {
+#project-3 {
   position: absolute;
   right: 0px;
   left: -603px;
-  top: 1440px !important;
+  top: 2191px !important;
 }

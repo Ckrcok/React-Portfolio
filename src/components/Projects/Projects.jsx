@@ -4,7 +4,7 @@ import "./Projects.css";
 function Projects(props) {
   return (
     <div>
-      <div id="project1">
+      <div id="project-1">
         <div
           id="project1Card"
           data-aos="fade-zoom-in"
@@ -26,7 +26,7 @@ function Projects(props) {
           alt="Connect-Four In Space"
         />
       </div>
-      <div id="project2">
+      <div id="project-2">
         <div
           id="project2Card"
           data-aos="fade-zoom-in"
@@ -48,7 +48,7 @@ function Projects(props) {
           alt="Jean Model Website"
         />
       </div>
-      <div id="project3">
+      <div id="project-3">
         <div
           id="project3Card"
           data-aos="fade-zoom-in"

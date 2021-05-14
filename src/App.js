@@ -27,23 +27,12 @@ class App extends React.Component {
     }
   ];
 
-  handleClick() {
-    console.log("Click");
-    window.scrollTo(0, 1000);
-  }
-
   render() {
     return (
       <div className="App">
         <div id="shapes">
           <Shapes data-aos="zoom-out" data-aos-duration="3000" />
         </div>
-        <button onClick={this.handleClick}>
-          click to scroll to the 100th pixel
-        </button>
-        <button>
-          <a href="#bg5">BG5</a>
-        </button>
 
         <div id="bg1">
           <Hey />

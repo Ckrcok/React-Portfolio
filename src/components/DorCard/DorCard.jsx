@@ -28,16 +28,16 @@ function DorCard() {
       <hr id="diveder" />
       <h5>Project Sample</h5>
       <div className="fancy">
-        <a href="#project1">First project</a>
+        <a href="#project-1">First project</a>
       </div>
       <div className="fancy">
-        <a href="#project2Card">second project</a>
+        <a href="#Project2">second project</a>
       </div>
       <div className="fancy">
-        <a href="#project3">third project</a>
+        <a href="#project-3">third project</a>
       </div>
       <div className="fancy">
-        <a href="#project4">fourth project</a>
+        <a href="#project-4">fourth project</a>
       </div>
     </span>
   );
