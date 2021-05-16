@@ -8,7 +8,6 @@ Dor Zairi
 - [x] upload to github
 - [ ] Making a nice readme
 - [ ] Finsh the protfolio
-- [ ] 
 
 
 My Protfolio web site built with react
