@@ -13,7 +13,8 @@ This website was create in React, js and css
 
 
 
-## tasks
+## tasks :memo:
+:pencil
 
 - [x] upload to github
 - [ ] Making a nice readme
