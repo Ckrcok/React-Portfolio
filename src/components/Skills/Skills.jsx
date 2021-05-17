@@ -16,87 +16,87 @@ function Skills() {
       </h3>
       <div id="MySkill">
         <h1 className="title is-1" id="Head">
-          Skills:
+          TECHNICAL SKILLS:
         </h1>
         <p
           className="subtitle is-4"
           id="para"
           data-aos="fade-right"
           data-aos-easing="ease-out-quart"
-          data-aos-duration="3000"
-          data-aos-delay="1100"
+          data-aos-duration="1000"
+          data-aos-delay="1950"
         >
-          - my first skill
+          - JavaScript (ES6 +), HTML 5, Python, Java, C++, C#, SQL, CSS3
         </p>
         <p
           className="subtitle is-4"
           id="para"
           data-aos="fade-right"
           data-aos-easing="ease-out-quart"
-          data-aos-duration="3000"
-          data-aos-delay="2000"
+          data-aos-duration="1000"
+          data-aos-delay="2100"
         >
-          - my second skill
+          - MongoDB, PostgreSQL
         </p>
         <p
           className="subtitle is-4"
           id="para"
           data-aos="fade-right"
           data-aos-easing="ease-out-quart"
-          data-aos-duration="3000"
-          data-aos-delay="2050"
+          data-aos-duration="1000"
+          data-aos-delay="2250"
         >
-          - my third skill
+          - Mongoose, Django, Node.js, jQuery
         </p>
         <p
           className="subtitle is-4"
           id="para"
           data-aos="fade-right"
           data-aos-easing="ease-out-quart"
-          data-aos-duration="3000"
-          data-aos-delay="2350"
+          data-aos-duration="1000"
+          data-aos-delay="2400"
         >
-          - my fourth skill
+          - Git, GitHub, Figma, Heroku
         </p>
         <p
           className="subtitle is-4"
           id="para"
           data-aos="fade-right"
           data-aos-easing="ease-out-quart"
-          data-aos-duration="3000"
-          data-aos-delay="2450"
+          data-aos-duration="1000"
+          data-aos-delay="2550"
         >
-          - my fifth skill
+          - ASP.NET, RESTful API
         </p>
         <p
           className="subtitle is-4"
           id="para"
           data-aos="fade-right"
           data-aos-easing="ease-out-quart"
-          data-aos-duration="3000"
-          data-aos-delay="2650"
+          data-aos-duration="1000"
+          data-aos-delay="2700"
         >
-          - my sixth skill
+          - Express.js, React.js
         </p>
         <p
           className="subtitle is-4"
           id="para"
           data-aos="fade-right"
           data-aos-easing="ease-out-quart"
-          data-aos-duration="3000"
+          data-aos-duration="1000"
           data-aos-delay="2850"
         >
-          - my sevetheen skill
+          - Bulma, Bootstrep, Materialize, Material UI
         </p>
         <p
           className="subtitle is-4"
           id="para"
           data-aos="fade-right"
           data-aos-easing="ease-out-quart"
-          data-aos-duration="3000"
+          data-aos-duration="1000"
           data-aos-delay="3000"
         >
-          - my eight skill
+          - Unity 3D, Photon
         </p>
       </div>
     </div>

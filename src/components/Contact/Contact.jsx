@@ -9,6 +9,11 @@ function Contact() {
       </h1>
       <article className="message is-medium">
         <div className="message-body" id="message-body">
+          <img
+            alt="Dor's Avatar"
+            id="Avatar"
+            src="https://avatars.githubusercontent.com/u/56084381?v=4"
+          />
           <div id="linkedin">
             <i className="fab fa-linkedin fa-2x">
               {" "}
@@ -18,7 +23,7 @@ function Contact() {
           <div id="gitHub">
             <i className="fab fa-github-alt fa-2x">
               {" "}
-              <a href="github.com/ckrcok">Ckrcok</a>
+              <a href="https://www.github.com/ckrcok">Ckrcok</a>
             </i>
           </div>
           <div id="Email">

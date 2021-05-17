@@ -68,16 +68,13 @@ html {
   background-position: 50% 0%;
 } */
 
-#bg5 {
-  z-index: 2;
+#bg4 {
   width: 1932px;
-  height: 30vh;
+  height: 40vh;
   background-size: 52% 50%;
   opacity: 100%;
-  background-repeat: no-repeat;
-  background-color: #181818;
+
   position: absolute;
-  top: 5843px !important;
+  top: 5950px !important;
   left: -19px;
-  background-position: 52% 50%;
 }

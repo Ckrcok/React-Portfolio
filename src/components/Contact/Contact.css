@@ -1,7 +1,7 @@
 #Contact {
-  width: 50%;
-  left: 467px !important;
-  top: 87px !important;
+  width: 39%;
+  left: 606px !important;
+  top: 10px !important;
   right: 423px !important;
   background-color: #2c3d67;
   color: #f8f8f8;
@@ -15,6 +15,17 @@
 
 #contact-header {
   text-align: center;
+}
+#Avatar {
+  opacity: 100%;
+  border-radius: 10px;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  width: auto;
+  height: 15vh;
+  left: 1078px;
+  top: 1214px;
+  margin: auto;
+  padding: 0;
 }
 
 #message-header {
@@ -32,6 +43,25 @@
 
 #message-body {
   display: flex;
-  flex-direction: initial;
-  justify-content: space-between;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+  padding: 1px;
+}
+
+#Avatar {
+  padding: 8px;
+  background: linear-gradient(-90deg, currentColor 50%, #0000 0) 0 0,
+    linear-gradient(currentColor 0 0) 0 0,
+    linear-gradient(90deg, currentColor 50%, #0000 0) 100% 100%,
+    linear-gradient(currentColor 0 0) 100% 100%;
+  background-size: 200% 3px, 3px 0%;
+  background-repeat: no-repeat;
+  transition: 0.3s, background-size 0.3s 0.3s;
+}
+
+#Avatar:hover {
+  background-position: 100% 0, 0 0, 0 100%, 100% 100%;
+  background-size: 200% 3px, 3px 100%;
+  transition: 0.3s, background-position 0.3s 0.3s;
 }

@@ -1,27 +1,15 @@
 #dorCard {
+  position: absolute;
+  top: 230px !important;
+  left: 1265px !important;
   display: flex;
   justify-content: center;
   text-align: center;
   flex-flow: column;
-  width: 300px;
-  height: 500px;
-  position: absolute;
-  left: 1343px;
-  top: 185px;
+  width: 20vw;
+  height: 40vh;
   box-shadow: rgba(249, 249, 249, 0.11) 0px 30px 90px;
   background-color: rgb(239, 239, 239);
-}
-
-#Avatar {
-  opacity: 100%;
-  border-radius: 10px;
-  transform: matrix(-1, 0, 0, 1, 0, 0);
-  width: auto;
-  height: 15vh;
-  left: 1078px;
-  top: 1214px;
-  margin: auto;
-  padding: 0;
 }
 
 #diveder {
@@ -30,7 +18,8 @@
   display: block;
   width: 59px;
   height: 0px;
-  margin: 1vh;
+  margin-left: 123px;
+  margin-top: 11px;
 }
 
 #card-id {
@@ -40,13 +29,6 @@
 #name {
   align-self: center;
   margin: auto;
-  margin-right: 15px;
-  user-drag: none;
-  user-select: none;
-  -moz-user-select: none;
-  -webkit-user-drag: none;
-  -webkit-user-select: none;
-  -ms-user-select: none;
 }
 
 .fancy {
@@ -90,21 +72,4 @@
   box-shadow: 0 0 0 80px #777;
   color: #fff;
   padding: 10px;
-}
-
-#Avatar {
-  padding: 8px;
-  background: linear-gradient(-90deg, currentColor 50%, #0000 0) 0 0,
-    linear-gradient(currentColor 0 0) 0 0,
-    linear-gradient(90deg, currentColor 50%, #0000 0) 100% 100%,
-    linear-gradient(currentColor 0 0) 100% 100%;
-  background-size: 200% 3px, 3px 0%;
-  background-repeat: no-repeat;
-  transition: 0.3s, background-size 0.3s 0.3s;
-}
-
-#Avatar:hover {
-  background-position: 100% 0, 0 0, 0 100%, 100% 100%;
-  background-size: 200% 3px, 3px 100%;
-  transition: 0.3s, background-position 0.3s 0.3s;
 }

@@ -5,7 +5,6 @@ import Hey from "./components/Hey/Hey.jsx";
 import DorCard from "./components/DorCard/DorCard.jsx";
 import Skills from "./components/Skills/Skills.jsx";
 import Projects from "./components/Projects/Projects.jsx";
-import Timeline from "./components/Timeline/Timeline.jsx";
 import Contact from "./components/Contact/Contact.jsx";
 import { ReactComponent as Shapes } from "./assets/Shapes.svg";
 
@@ -13,7 +12,7 @@ class App extends React.Component {
   projects = [
     {
       name: "Connect-Four In Space",
-      description: " My First project made by JS HTML And CSS"
+      description: "My First project made by JS HTML And CSS"
     },
     {
       name: "Jean Model Website",
@@ -23,31 +22,36 @@ class App extends React.Component {
     {
       name: "Buzz",
       description:
-        "  A coffee collector web site, with mobile first design build with another pogramer and UXDI designers built with -Django, Python, PostgresSQL"
+        "A coffee collector web site, with mobile first design build with another pogramer and UXDI designers built with -Django, Python, PostgresSQL"
     },
     {
       name: "Karmik",
       description:
-        " Karmik gives you the freedom to create a board for every intention you desire to manifest. Karmik boasts full CRUD functionality and incorporates all of the MERN-stack technologies."
+        "Karmik gives you the freedom to create a board for every intention you desire to manifest. Karmik boasts full CRUD functionality and incorporates all of the MERN-stack technologies."
     }
   ];
 
   handleClick(e) {
     console.log("Click");
     console.log(e.target.innerHTML);
-    if (e.target.innerHTML === "First project") {
+    if (e.target.innerHTML === "Game Development: “Connect 4” in Space") {
       window.scrollTo({
         top: 2250,
         behavior: "smooth"
       });
-    } else if (e.target.innerHTML === "Second project") {
+    } else if (e.target.innerHTML === "Full Stack Development: Jean Model") {
       window.scrollTo({
         top: 3150,
         behavior: "smooth"
       });
-    } else if (e.target.innerHTML === "Third project") {
+    } else if (e.target.innerHTML === "Web-App Development: Buzz") {
       window.scrollTo({
         top: 4050,
+        behavior: "smooth"
+      });
+    } else if (e.target.innerHTML === "App Development: Karmik") {
+      window.scrollTo({
+        top: 4885,
         behavior: "smooth"
       });
     }
@@ -70,8 +74,7 @@ class App extends React.Component {
         <div id="bg3">
           <Projects projects={this.projects} />
         </div>
-        <div id="bg4"></div>
-        <div id="bg5">
+        <div id="bg4">
           <Contact />
         </div>
       </div>
