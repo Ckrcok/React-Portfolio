@@ -59,7 +59,6 @@ class App extends React.Component {
         <div id="shapes">
           <Shapes data-aos="zoom-out" data-aos-duration="3000" />
         </div>
-
         <div id="bg1">
           <Hey />
         </div>
@@ -71,9 +70,7 @@ class App extends React.Component {
         <div id="bg3">
           <Projects projects={this.projects} />
         </div>
-        <div id="bg4">
-          <Timeline />
-        </div>
+        <div id="bg4"></div>
         <div id="bg5">
           <Contact />
         </div>
