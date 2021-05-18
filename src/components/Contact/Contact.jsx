@@ -15,6 +15,7 @@ function Contact() {
             id="Avatar"
             src="https://avatars.githubusercontent.com/u/56084381?v=4"
           />
+
           <div id="linkedin" data-aos="fade-up">
             <i className="fab fa-linkedin fa-2x" id="linkedinIcon">
               {" "}
