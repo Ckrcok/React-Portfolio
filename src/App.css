@@ -55,26 +55,12 @@ html {
   background-position: 50% 50%;
 }
 
-/* #bg4 {
-  width: 100%;
-  height: 2688px;
-  opacity: 100%;
-  position: absolute;
-  top: 7550px !important;
-  left: -19px;
-  background-size: 70% 70%;
-  background-repeat: no-repeat;
-  background-image: url("./assets/Plane.png");
-  background-position: 50% 0%;
-} */
-
 #bg4 {
   width: 1932px;
   height: 40vh;
   background-size: 52% 50%;
   opacity: 100%;
-
+  top: 6229px !important;
   position: absolute;
-  top: 5950px !important;
   left: -19px;
 }
