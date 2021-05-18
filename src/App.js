@@ -68,7 +68,6 @@ class App extends React.Component {
         </div>
         <div id="bg2">
           <Skills />
-
           <DorCard handleClick={this.handleClick} />
         </div>
         <div id="bg3">

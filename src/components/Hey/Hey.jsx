@@ -18,7 +18,7 @@ function Hey() {
           data-aos-duration="3000"
           data-aos-delay="1000"
         >
-          DOR ZAIRI
+          DOR ZAIRI.
         </strong>
       </h1>
       <h2
@@ -37,7 +37,7 @@ function Hey() {
         data-aos-duration="3000"
         data-aos-delay="3000"
       >
-        I'm project addicted and inspiring video game developer.
+        I'm project addicted and an inspiring video game developer.
       </p>
     </div>
   );
