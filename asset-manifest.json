@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.cfddc903.chunk.css",
+    "main.css": "/React-Portfolio/static/css/main.4f0ca1a2.chunk.css",
     "main.js": "/React-Portfolio/static/js/main.5d1f2f4f.chunk.js",
     "main.js.map": "/React-Portfolio/static/js/main.5d1f2f4f.chunk.js.map",
     "runtime-main.js": "/React-Portfolio/static/js/runtime-main.1f279978.js",
@@ -10,7 +10,7 @@
     "static/js/3.e769cd8e.chunk.js": "/React-Portfolio/static/js/3.e769cd8e.chunk.js",
     "static/js/3.e769cd8e.chunk.js.map": "/React-Portfolio/static/js/3.e769cd8e.chunk.js.map",
     "index.html": "/React-Portfolio/index.html",
-    "static/css/main.cfddc903.chunk.css.map": "/React-Portfolio/static/css/main.cfddc903.chunk.css.map",
+    "static/css/main.4f0ca1a2.chunk.css.map": "/React-Portfolio/static/css/main.4f0ca1a2.chunk.css.map",
     "static/js/2.e7885880.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.e7885880.chunk.js.LICENSE.txt",
     "static/media/Shapes.4492eac4.svg": "/React-Portfolio/static/media/Shapes.4492eac4.svg",
     "static/media/App.css": "/React-Portfolio/static/media/Toronto2.cddf0d0a.png"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.1f279978.js",
     "static/js/2.e7885880.chunk.js",
-    "static/css/main.cfddc903.chunk.css",
+    "static/css/main.4f0ca1a2.chunk.css",
     "static/js/main.5d1f2f4f.chunk.js"
   ]
 }
