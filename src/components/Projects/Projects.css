@@ -1,3 +1,7 @@
+#projects {
+  font-family: "Montserrat";
+}
+
 /* Connect four in space */
 #Project1 {
   position: absolute;
@@ -70,7 +74,7 @@
   position: absolute;
   color: white;
   top: 8px;
-  right: -25px;
+  right: -77px;
   left: -4.433px;
   bottom: 75px;
 }
@@ -118,9 +122,9 @@
 #Descrip3 {
   color: white;
   position: absolute;
-  right: 30px;
+  right: 0px;
   bottom: 7px;
-  left: 36px;
+  left: 5px;
   top: 57px;
 }
 
