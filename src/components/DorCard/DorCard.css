@@ -76,3 +76,20 @@
 * {
   opacity: 1;
 }
+
+@media only screen and (min-width: 3840px) {
+  #dorCard {
+    position: absolute;
+    left: 2488px !important;
+    top: 342px !important;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-flow: column;
+    width: 15vw;
+    height: 31vh;
+    box-shadow: rgba(249, 249, 249, 0.11) 0px 30px 90px;
+    background-color: rgb(239, 239, 239);
+    font-family: "Montserrat";
+  }
+}

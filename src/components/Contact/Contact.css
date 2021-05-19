@@ -176,3 +176,45 @@
   background-size: 200% 5px, 5px 100%;
   transition: 0.3s, background-position 0.3s 0.3s;
 }
+
+@media only screen and (min-width: 3840px) {
+  #gitHubIcon {
+    color: #3273dc;
+    background: linear-gradient(-90deg, #ffffff 50%, #0000 0) 0 0,
+      linear-gradient(#ffffff 0 0) 0 0,
+      linear-gradient(90deg, #ffffff 50%, #0000 0) 100% 100%,
+      linear-gradient(#ffffff 0 0, #ffffff) 100% 100%;
+    background-position-x: 0px, 0px, 100%, 100%;
+    background-position-y: 0px, 0px, 100%, 100%;
+    background-repeat: repeat, repeat, repeat, repeat;
+    background-size: auto, auto, auto, auto;
+    background-repeat: repeat, repeat, repeat, repeat;
+    background-size: auto, auto, auto, auto;
+    background-size: 200% 3px, 3px 0%;
+    background-repeat: no-repeat;
+    transition: 0.3s, background-size 0.3s 0.3s;
+    width: 210px;
+    height: 47px;
+    padding-top: 8px;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+  }
+  #gitHub a {
+    color: white;
+    margin-left: 1vw;
+  }
+  #linkedin a {
+    color: white;
+    margin-left: 15px;
+  }
+
+  #Contact {
+    font-family: "Montserrat";
+    width: 39%;
+    left: 606px !important;
+    top: 10px !important;
+    right: 423px !important;
+    margin-left: 38vw;
+    margin-top: 0;
+  }
+}

@@ -12,6 +12,7 @@ html {
   background-attachment: fixed;
   scroll-behavior: smooth;
   opacity: 1;
+  background-size: 100vw auto;
 }
 
 #shapes {
@@ -65,4 +66,32 @@ html {
   top: 6229px !important;
   position: absolute;
   left: -19px;
+}
+
+@media only screen and (min-width: 3840px) {
+  html {
+    width: 1440px;
+    height: 10000px;
+    margin: auto;
+    background: #181818;
+    background-image: url("./assets/Toronto2.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    scroll-behavior: smooth;
+    opacity: 1;
+    background-size: 100vw auto;
+  }
+
+  #shapes {
+    right: 24.4896vw !important;
+    top: 426px !important;
+  }
+  #bg4 {
+    top: 8872px !important;
+
+    left: 702px !important;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
 }
