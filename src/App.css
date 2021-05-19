@@ -79,7 +79,7 @@ html {
     background-attachment: fixed;
     scroll-behavior: smooth;
     opacity: 1;
-    background-size: 100vw auto;
+    background-size: 111vw auto;
   }
 
   #shapes {
@@ -94,4 +94,10 @@ html {
 }
 
 @media only screen and (min-width: 1280px) {
+  #shapes {
+    top: -68px;
+  }
+  #bg4 {
+    left: -125px;
+  }
 }

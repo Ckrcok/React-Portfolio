@@ -368,3 +368,67 @@ hr {
     bottom: -380px !important;
   }
 }
+
+@media only screen and (min-width: 1280px) {
+  #Project1 {
+    position: absolute;
+    width: 34vw;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    top: -177.951px !important;
+    right: 722px !important;
+    border-radius: 15px;
+  }
+
+  #project1Card {
+    width: 300px;
+    height: 122px;
+    position: absolute;
+    left: 718px !important;
+    top: 57px !important;
+  }
+
+  #project-2 {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    left: 190px !important;
+    top: 903px !important;
+    height: 1920px;
+    width: auto;
+  }
+
+  #project-3 {
+    position: absolute;
+    right: 0px;
+    left: -799px;
+    top: 2191px !important;
+  }
+
+  #project3Card {
+    position: absolute;
+    width: 300px;
+    height: 170px;
+    left: 1488px !important;
+    top: 256px !important;
+  }
+
+  #project-4 {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    left: 41px !important;
+    height: 867px;
+    width: auto;
+    top: 2999px !important;
+  }
+
+  #project4Card {
+    width: 300px;
+    height: 150px;
+    position: absolute;
+    left: 106px !important;
+    top: 228px !important;
+  }
+}

@@ -23,6 +23,33 @@
   text-transform: capitalize;
   margin-top: 1vh;
 }
+
 * {
   opacity: 1;
+}
+
+@media only screen and (min-width: 1280px) {
+  #SkillsDiv {
+    margin-top: 15vh;
+    margin-left: 4vw;
+  }
+
+  #Head {
+    color: #ffffff;
+    font-family: "Montserrat";
+    font-size: 25px;
+  }
+
+  #para {
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-top: 1vh;
+    font-size: 17px;
+  }
+
+  #Skills {
+    color: #219dcf;
+    font-family: "Montserrat";
+    font-size: 25px;
+  }
 }
