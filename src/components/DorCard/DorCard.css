@@ -48,10 +48,6 @@
   background-position: right, left;
 }
 
-* {
-  opacity: 100%;
-}
-
 #living {
   padding: 10px 10px 10px 20px;
   box-shadow: 0 0 0 80px #0000;
@@ -72,4 +68,8 @@
   box-shadow: 0 0 0 80px #777;
   color: #fff;
   padding: 10px;
+}
+
+* {
+  opacity: 1;
 }

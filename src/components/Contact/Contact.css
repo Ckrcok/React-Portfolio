@@ -1,3 +1,7 @@
+* {
+  opacity: 1;
+}
+
 #Contact {
   width: 39%;
   left: 606px !important;
@@ -18,7 +22,6 @@
   text-align: center;
 }
 #Avatar {
-  opacity: 100%;
   border-radius: 309px;
   transform: matrix(-1, 0, 0, 1, 0, 0);
   left: 1078px;

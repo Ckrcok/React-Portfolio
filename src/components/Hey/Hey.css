@@ -72,3 +72,6 @@
 #insideHey {
   padding-top: 30vh;
 }
+* {
+  opacity: 1;
+}

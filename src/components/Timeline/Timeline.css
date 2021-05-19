@@ -209,3 +209,6 @@
   left: 425px !important;
   color: #056dffff;
 }
+* {
+  opacity: 1;
+}

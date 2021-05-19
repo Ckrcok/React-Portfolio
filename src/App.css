@@ -1,3 +1,7 @@
+* {
+  opacity: 1;
+}
+
 html {
   width: 1440px;
   height: 5000px;
@@ -7,6 +11,7 @@ html {
   background-repeat: no-repeat;
   background-attachment: fixed;
   scroll-behavior: smooth;
+  opacity: 1;
 }
 
 #shapes {
@@ -35,7 +40,6 @@ html {
   width: 100vw;
   height: 100vh;
   background-size: 800px 600px;
-  opacity: 100%;
   background-repeat: no-repeat;
   background-position: 33% 80%;
   top: 1144px !important;
@@ -47,7 +51,7 @@ html {
   left: -0.5px;
   width: 100vw;
   height: 3000px;
-  opacity: 100%;
+
   background-size: 50% 90%;
   background-repeat: no-repeat;
   position: absolute;
@@ -58,7 +62,6 @@ html {
   width: 1932px;
   height: 40vh;
   background-size: 52% 50%;
-  opacity: 100%;
   top: 6229px !important;
   position: absolute;
   left: -19px;

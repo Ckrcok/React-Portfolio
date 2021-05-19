@@ -176,3 +176,6 @@ hr {
   width: auto;
   top: 2999px !important;
 }
+* {
+  opacity: 1;
+}
