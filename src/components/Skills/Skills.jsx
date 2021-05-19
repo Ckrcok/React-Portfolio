@@ -26,7 +26,7 @@ function Skills() {
           data-aos-duration="1000"
           data-aos-delay="1950"
         >
-          - JavaScript (ES6 +), HTML 5, Python, Java, C++, C#, SQL, CSS3
+          → JavaScript (ES6 +), HTML 5, Python, Java, C++, C#, SQL, CSS3
         </p>
         <p
           className="subtitle is-4"
@@ -36,7 +36,7 @@ function Skills() {
           data-aos-duration="1000"
           data-aos-delay="2100"
         >
-          - MongoDB, PostgreSQL
+          → MongoDB, PostgreSQL
         </p>
         <p
           className="subtitle is-4"
@@ -46,7 +46,7 @@ function Skills() {
           data-aos-duration="1000"
           data-aos-delay="2250"
         >
-          - Mongoose, Django, Node.js, jQuery
+          → Mongoose, Django, Node.js, jQuery
         </p>
         <p
           className="subtitle is-4"
@@ -56,7 +56,7 @@ function Skills() {
           data-aos-duration="1000"
           data-aos-delay="2400"
         >
-          - Git, GitHub, Figma, Heroku
+          → Git, GitHub, Figma, Heroku
         </p>
         <p
           className="subtitle is-4"
@@ -66,7 +66,7 @@ function Skills() {
           data-aos-duration="1000"
           data-aos-delay="2550"
         >
-          - ASP.NET, RESTful API
+          → ASP.NET, RESTful API
         </p>
         <p
           className="subtitle is-4"
@@ -76,7 +76,7 @@ function Skills() {
           data-aos-duration="1000"
           data-aos-delay="2700"
         >
-          - Express.js, React.js
+          → Express.js, React.js
         </p>
         <p
           className="subtitle is-4"
@@ -86,7 +86,7 @@ function Skills() {
           data-aos-duration="1000"
           data-aos-delay="2850"
         >
-          - Bulma, Bootstrep, Materialize, Material UI
+          → Bulma, Bootstrep, Materialize, Material UI
         </p>
         <p
           className="subtitle is-4"
@@ -96,7 +96,7 @@ function Skills() {
           data-aos-duration="1000"
           data-aos-delay="3000"
         >
-          - Unity 3D, Photon
+          → Unity 3D, Photon
         </p>
       </div>
     </div>
