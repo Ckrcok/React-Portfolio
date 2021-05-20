@@ -134,3 +134,13 @@ html {
     left: -125px;
   }
 }
+
+@media only screen and (max-width: 2560px) {
+  #shapes {
+    z-index: -1;
+    position: absolute;
+    left: 299px !important;
+    top: 161px !important;
+    right: 16.8594vw !important;
+  }
+}
