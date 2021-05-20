@@ -369,7 +369,7 @@ hr {
   }
 }
 
-@media only screen and (min-width: 1280px) {
+@media only screen and (max-width: 1280px) {
   #Project1 {
     position: absolute;
     width: 34vw;
