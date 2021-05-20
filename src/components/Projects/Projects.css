@@ -432,3 +432,95 @@ hr {
     top: 228px !important;
   }
 }
+
+@media only screen and (max-width: 2560px) {
+  #project1Card {
+    width: 300px;
+    height: 122px;
+    position: absolute;
+    left: 882px !important;
+    top: 187px !important;
+  }
+
+  #Project1 {
+    position: absolute;
+    width: 34vw;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    right: 198px !important;
+    top: -295.951px !important;
+    border-radius: 15px;
+  }
+
+  #project2Card {
+    width: 300px;
+    height: 150px;
+    position: absolute;
+    left: 1380px !important;
+    top: 838px !important;
+  }
+
+  #Project2 {
+    position: absolute;
+    width: 50vw;
+    border-radius: 15px;
+    left: -229px !important;
+    top: 664px !important;
+  }
+
+  #Project3 {
+    position: absolute;
+    width: 19vw;
+    top: 115px !important;
+    left: 2305px !important;
+    border-radius: 15px;
+  }
+
+  #project3Card {
+    position: absolute;
+    width: 300px;
+    height: 170px;
+    top: 389px !important;
+    left: 1299px !important;
+  }
+
+  #project4Card {
+    width: 300px;
+    height: 150px;
+    position: absolute;
+    left: 1390px !important;
+    top: 365px !important;
+  }
+
+  #Project4 {
+    position: absolute;
+    width: 40vw;
+    left: -51px !important;
+    top: 183px !important;
+    border-radius: 15px;
+  }
+
+  #project-1 {
+    top: 1304px !important;
+  }
+
+  #project-2 {
+    top: 2189px !important;
+  }
+
+  #project-3 {
+    top: 4081px !important;
+  }
+
+  #project-4 {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    left: 386px !important;
+    height: 867px;
+    width: auto;
+    bottom: -52px !important;
+    top: 5471px !important;
+  }
+}

@@ -143,4 +143,17 @@ html {
     top: 161px !important;
     right: 16.8594vw !important;
   }
+
+  #bg2 {
+    top: 1310px !important;
+  }
+
+  #bg4 {
+    width: 1932px;
+    height: 40vh;
+    background-size: 52% 50%;
+    position: absolute;
+    top: 9122px !important;
+    left: 362px !important;
+  }
 }
