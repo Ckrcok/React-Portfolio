@@ -21,7 +21,6 @@ function Projects(props) {
               {props.projects[0].name}
             </a>
           </h1>
-          <hr />
           <p className="subtitle is-6" id="Descrip1">
             {props.projects[0].description}
           </p>
@@ -49,7 +48,6 @@ function Projects(props) {
               {props.projects[1].name}
             </a>
           </h1>
-          <hr />
           <p className="subtitle is-6" id="Descrip2">
             {props.projects[1].description}
           </p>
@@ -77,7 +75,7 @@ function Projects(props) {
               {props.projects[2].name}
             </a>
           </h1>
-          <hr />
+
           <p className="subtitle is-6" id="Descrip3">
             {props.projects[2].description}
           </p>
@@ -101,7 +99,7 @@ function Projects(props) {
               {props.projects[3].name}
             </a>
           </h1>
-          <hr />
+
           <p className="subtitle is-6" id="Descrip4">
             {props.projects[3].description}
           </p>

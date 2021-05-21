@@ -2,6 +2,9 @@
   font-family: "Montserrat";
 }
 
+a {
+  color: #219dcf;
+}
 /* Connect four in space */
 #Project1 {
   position: absolute;
@@ -139,7 +142,7 @@
 
 hr {
   height: 5px;
-  background-color: #2c3d67;
+  background-color: white;
   width: 330px;
   margin-left: -6px;
   margin-top: 48px;
@@ -317,14 +320,17 @@ hr {
 
   #title1 {
     color: white;
+    top: -2px !important;
   }
 
   #title2 {
     color: white;
+    top: -7px !important;
   }
 
   #title3 {
     color: white;
+    top: -15px !important;
   }
 
   #title4 {
@@ -349,7 +355,7 @@ hr {
 
   hr {
     height: 5px;
-    background-color: #2c3d67;
+    background-color: white;
     width: 330px;
     margin-left: -6px;
     margin-top: 48px;
@@ -627,7 +633,7 @@ hr {
 
   hr {
     height: 5px;
-    background-color: #2c3d67;
+    background-color: white;
     width: 330px;
     margin-left: -6px;
     margin-top: 48px;
