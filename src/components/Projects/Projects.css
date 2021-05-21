@@ -248,7 +248,7 @@ hr {
   }
 }
 
-@media only screen and (max-width: 1920px) and (min-width: 1820px) {
+@media only screen and (max-width: 1920px) and (min-width: 1821px) {
   #projects {
     font-family: "Montserrat";
   }
@@ -259,6 +259,7 @@ hr {
     border-radius: 15px;
     margin-left: 250px;
     height: 1000px;
+    right: 320px !important;
   }
 
   #Project2 {
@@ -287,13 +288,14 @@ hr {
   }
 
   #project1Card {
-    top: 16px !important;
+    top: 123px !important;
     left: 441px !important;
   }
 
   #project2Card {
     inset: 741px -751px -441px 640.731px !important;
     margin-top: 0px;
+    top: 566px !important;
   }
 
   #project3Card {
@@ -354,7 +356,7 @@ hr {
   }
 
   #project-1 {
-    top: 606px !important;
+    top: 258px !important;
     height: 940px;
     width: auto;
     flex-direction: row;
@@ -391,7 +393,7 @@ hr {
   }
 }
 
-@media only screen and (max-width: 2560px) and (min-width: 1920px) {
+@media only screen and (max-width: 2560px) and (min-width: 1921px) {
   #project1Card {
     width: 300px;
     height: 122px;
@@ -483,7 +485,7 @@ hr {
   }
 }
 
-@media only screen and (min-width: 3840px) and (min-width: 2560px) {
+@media only screen and (min-width: 3840px) and (min-width: 2561px) {
   #projects {
     font-family: "Montserrat";
   }
@@ -660,7 +662,7 @@ hr {
   #project-4 {
     position: absolute;
     right: 0px;
-    left: 386px !important;
+    left: 655px !important;
     height: 867px;
     width: auto;
     top: 4888px !important;

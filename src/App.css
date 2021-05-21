@@ -172,7 +172,14 @@ html {
   }
 }
 
-@media only screen and (max-width: 2560px) and (min-width: 1920px) {
+@media only screen and (max-width: 2560px) and (min-width: 1921px) {
+  html {
+    background-image: url("./assets/Toronto2.png");
+
+    opacity: 1;
+    background-size: 151vw auto;
+  }
+
   #shapes {
     z-index: -1;
     position: absolute;
