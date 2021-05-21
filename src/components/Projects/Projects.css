@@ -524,3 +524,146 @@ hr {
     top: 5471px !important;
   }
 }
+
+@media only screen and (max-width: 1920px) {
+  #projects {
+    font-family: "Montserrat";
+  }
+
+  /* Connect four in space */
+  #Project1 {
+    width: auto;
+    border-radius: 15px;
+    margin-left: 250px;
+    height: 1000px;
+  }
+
+  #Project2 {
+    width: auto;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    border-radius: 15px;
+    height: 500px;
+    left: -444px !important;
+  }
+
+  #Project3 {
+    width: 19vw;
+    margin-left: 500px;
+    left: 828px !important;
+    right: 0px;
+    top: 303px !important;
+  }
+
+  #Project4 {
+    width: 40vw;
+    border-radius: 15px;
+    margin-left: 300px;
+    left: -386px !important;
+  }
+
+  #project1Card {
+    top: 16px !important;
+    left: 441px !important;
+  }
+
+  #project2Card {
+    inset: 741px -751px -441px 640.731px !important;
+    margin-top: 0px;
+  }
+
+  #project3Card {
+    width: 300px;
+    height: 170px;
+    margin-top: 140px;
+    left: 572px !important;
+    top: 362px !important;
+  }
+
+  #project4Card {
+    width: 300px;
+    height: 150px;
+    margin-left: 200px;
+    margin-top: 59px;
+    left: 694px !important;
+    top: 234px !important;
+  }
+
+  #title1 {
+    color: white;
+  }
+
+  #title2 {
+    color: white;
+  }
+
+  #title3 {
+    color: white;
+  }
+
+  #title4 {
+    color: white;
+  }
+
+  #Descrip1 {
+    color: white;
+  }
+
+  #Descrip2 {
+    color: white;
+  }
+
+  #Descrip3 {
+    color: white;
+  }
+
+  #Descrip4 {
+    color: white;
+  }
+
+  hr {
+    height: 5px;
+    background-color: #2c3d67;
+    width: 330px;
+    margin-left: -6px;
+    margin-top: 48px;
+  }
+
+  #project-1 {
+    top: 606px !important;
+    height: 940px;
+    width: auto;
+    flex-direction: row;
+    display: flex;
+  }
+
+  #project-2 {
+    height: 940px;
+    width: auto;
+    flex-direction: row;
+    display: flex;
+    margin: 200px;
+    top: 606px !important;
+  }
+
+  #project-3 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 500px;
+    margin-bottom: 600px;
+    top: 2132px !important;
+  }
+
+  #project-4 {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 600px;
+    left: 330px !important;
+    top: 3460px !important;
+  }
+
+  * {
+    opacity: 1;
+  }
+}

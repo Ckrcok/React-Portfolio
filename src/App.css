@@ -157,3 +157,65 @@ html {
     left: 362px !important;
   }
 }
+
+@media only screen and (max-width: 1920px) {
+  * {
+    opacity: 1;
+  }
+
+  html {
+    background: #181818;
+    background-image: url("./assets/Toronto2.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    scroll-behavior: smooth;
+    opacity: 1;
+    background-size: 100vw auto;
+  }
+
+  #shapes {
+    position: absolute;
+    left: -22px !important;
+  }
+
+  #bg1 {
+    padding-top: 35vh;
+    width: auto;
+    height: 100vh;
+    margin-left: 2vw;
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    text-align: center;
+    background-position: 33% 80%;
+  }
+
+  #bg2 {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-size: 800px 600px;
+    background-repeat: no-repeat;
+    background-position: 33% 80%;
+  }
+
+  #bg3 {
+    top: 1976px !important;
+    left: -0.5px;
+    width: 100vw;
+    height: 3000px;
+
+    background-size: 50% 90%;
+    background-repeat: no-repeat;
+    position: absolute;
+    background-position: 50% 50%;
+  }
+
+  #bg4 {
+    width: 1932px;
+    height: 40vh;
+    background-size: 52% 50%;
+    position: absolute;
+    left: 23.051px !important;
+    top: 7026px !important;
+  }
+}

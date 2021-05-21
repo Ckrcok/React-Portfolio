@@ -53,3 +53,61 @@
     font-size: 25px;
   }
 }
+
+@media only screen and (max-width: 1920px) {
+  #SkillsDiv {
+    margin-top: 15vh;
+    margin-left: 12vw;
+  }
+
+  #Skills {
+    color: #219dcf;
+    font-family: "Montserrat";
+  }
+
+  #MySkill {
+    color: #ffffff;
+    font-family: "Montserrat";
+  }
+
+  #Head {
+    color: #ffffff;
+    font-family: "Montserrat";
+  }
+
+  #para {
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-top: 1vh;
+  }
+
+  * {
+    opacity: 1;
+  }
+
+  @media only screen and (max-width: 1280px) {
+    #SkillsDiv {
+      margin-top: 15vh;
+      margin-left: 10vw;
+    }
+
+    #Head {
+      color: #ffffff;
+      font-family: "Montserrat";
+      font-size: 25px;
+    }
+
+    #para {
+      color: #ffffff;
+      text-transform: capitalize;
+      margin-top: 1vh;
+      font-size: 10px;
+    }
+
+    #Skills {
+      color: #219dcf;
+      font-family: "Montserrat";
+      font-size: 25px;
+    }
+  }
+}
