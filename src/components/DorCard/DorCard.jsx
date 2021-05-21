@@ -29,6 +29,10 @@ function DorCard(props) {
       <div className="fancy" onClick={props.handleClick}>
         App Development: Karmik
       </div>
+      <hr id="diveder" />
+      <div className="fancy" onClick={props.handleClick}>
+        Lets Connect!
+      </div>
     </span>
   );
 }

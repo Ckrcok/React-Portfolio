@@ -36,22 +36,27 @@ class App extends React.Component {
     console.log(e.target.innerHTML);
     if (e.target.innerHTML === "Game Development: “Connect 4” in Space") {
       window.scrollTo({
-        top: 2250,
+        top: 2050,
         behavior: "smooth"
       });
     } else if (e.target.innerHTML === "Full Stack Development: Jean Model") {
       window.scrollTo({
-        top: 3150,
+        top: 3050,
         behavior: "smooth"
       });
     } else if (e.target.innerHTML === "Web-App Development: Buzz") {
       window.scrollTo({
-        top: 4050,
+        top: 4200,
         behavior: "smooth"
       });
     } else if (e.target.innerHTML === "App Development: Karmik") {
       window.scrollTo({
-        top: 4885,
+        top: 5400,
+        behavior: "smooth"
+      });
+    } else if (e.target.innerHTML === "Lets Connect!") {
+      window.scrollTo({
+        top: 6450,
         behavior: "smooth"
       });
     }
