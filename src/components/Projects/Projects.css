@@ -184,7 +184,306 @@ hr {
   opacity: 1;
 }
 
-@media only screen and (min-width: 3840px) {
+@media only screen and (max-width: 1280px) {
+  #Project1 {
+    position: absolute;
+    width: 34vw;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    top: -177.951px !important;
+    right: 722px !important;
+    border-radius: 15px;
+  }
+
+  #project1Card {
+    width: 300px;
+    height: 122px;
+    position: absolute;
+    left: 718px !important;
+    top: 57px !important;
+  }
+
+  #project-2 {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    left: 190px !important;
+    top: 903px !important;
+    height: 1920px;
+    width: auto;
+  }
+
+  #project-3 {
+    position: absolute;
+    right: 0px;
+    left: -799px;
+    top: 1981px !important;
+  }
+
+  #project3Card {
+    position: absolute;
+    width: 300px;
+    height: 170px;
+    left: 1488px !important;
+    top: 256px !important;
+  }
+
+  #project-4 {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    left: 41px !important;
+    height: 867px;
+    width: auto;
+    top: 2825px !important;
+  }
+
+  #project4Card {
+    width: 300px;
+    height: 150px;
+    position: absolute;
+    left: 106px !important;
+    top: 228px !important;
+  }
+}
+
+@media only screen and (max-width: 1920px) and (min-width: 1820px) {
+  #projects {
+    font-family: "Montserrat";
+  }
+
+  /* Connect four in space */
+  #Project1 {
+    width: auto;
+    border-radius: 15px;
+    margin-left: 250px;
+    height: 1000px;
+  }
+
+  #Project2 {
+    width: auto;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    border-radius: 15px;
+    height: 500px;
+    left: -444px !important;
+  }
+
+  #Project3 {
+    width: 19vw;
+    margin-left: 500px;
+    left: 828px !important;
+    right: 0px;
+    top: 303px !important;
+  }
+
+  #Project4 {
+    width: 40vw;
+    border-radius: 15px;
+    margin-left: 300px;
+    left: -386px !important;
+  }
+
+  #project1Card {
+    top: 16px !important;
+    left: 441px !important;
+  }
+
+  #project2Card {
+    inset: 741px -751px -441px 640.731px !important;
+    margin-top: 0px;
+  }
+
+  #project3Card {
+    width: 300px;
+    height: 170px;
+    margin-top: 140px;
+    left: 572px !important;
+    top: 362px !important;
+  }
+
+  #project4Card {
+    width: 300px;
+    height: 150px;
+    margin-left: 200px;
+    margin-top: 59px;
+    left: 694px !important;
+    top: 234px !important;
+  }
+
+  #title1 {
+    color: white;
+  }
+
+  #title2 {
+    color: white;
+  }
+
+  #title3 {
+    color: white;
+  }
+
+  #title4 {
+    color: white;
+  }
+
+  #Descrip1 {
+    color: white;
+  }
+
+  #Descrip2 {
+    color: white;
+  }
+
+  #Descrip3 {
+    color: white;
+  }
+
+  #Descrip4 {
+    color: white;
+  }
+
+  hr {
+    height: 5px;
+    background-color: #2c3d67;
+    width: 330px;
+    margin-left: -6px;
+    margin-top: 48px;
+  }
+
+  #project-1 {
+    top: 606px !important;
+    height: 940px;
+    width: auto;
+    flex-direction: row;
+    display: flex;
+  }
+
+  #project-2 {
+    height: 940px;
+    width: auto;
+    flex-direction: row;
+    display: flex;
+    margin: 200px;
+    top: 606px !important;
+  }
+
+  #project-3 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 500px;
+    margin-bottom: 600px;
+    top: 2132px !important;
+  }
+
+  #project-4 {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 600px;
+    left: 330px !important;
+    top: 3460px !important;
+  }
+
+  * {
+    opacity: 1;
+  }
+}
+
+@media only screen and (max-width: 2560px) and (min-width: 1920px) {
+  #project1Card {
+    width: 300px;
+    height: 122px;
+    position: absolute;
+    left: 716px !important;
+    top: 187px !important;
+  }
+
+  #Project1 {
+    position: absolute;
+    width: 34vw;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    right: 198px !important;
+    top: -295.951px !important;
+    border-radius: 15px;
+  }
+
+  #project2Card {
+    width: 300px;
+    height: 150px;
+    position: absolute;
+    left: 1380px !important;
+    top: 838px !important;
+  }
+
+  #Project2 {
+    position: absolute;
+    width: 50vw;
+    border-radius: 15px;
+    left: -229px !important;
+    top: 664px !important;
+  }
+
+  #Project3 {
+    position: absolute;
+    width: 19vw;
+    top: 115px !important;
+    left: 2305px !important;
+    border-radius: 15px;
+  }
+
+  #project3Card {
+    position: absolute;
+    width: 300px;
+    height: 170px;
+    top: 389px !important;
+    left: 1299px !important;
+  }
+
+  #project4Card {
+    width: 300px;
+    height: 150px;
+    position: absolute;
+    left: 1390px !important;
+    top: 365px !important;
+  }
+
+  #Project4 {
+    position: absolute;
+    width: 40vw;
+    left: -51px !important;
+    top: 183px !important;
+    border-radius: 15px;
+  }
+
+  #project-1 {
+    top: 1304px !important;
+  }
+
+  #project-2 {
+    top: 2189px !important;
+  }
+
+  #project-3 {
+    top: 4081px !important;
+  }
+
+  #project-4 {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    left: 386px !important;
+    height: 867px;
+    width: auto;
+    bottom: -52px !important;
+    top: 5471px !important;
+  }
+}
+
+@media only screen and (min-width: 3840px) and (min-width: 2560px) {
   #projects {
     font-family: "Montserrat";
   }
@@ -366,304 +665,5 @@ hr {
     width: auto;
     top: 4888px !important;
     bottom: -380px !important;
-  }
-}
-
-@media only screen and (max-width: 1280px) {
-  #Project1 {
-    position: absolute;
-    width: 34vw;
-    margin-left: 0px;
-    margin-bottom: 0px;
-    margin-top: 0px;
-    top: -177.951px !important;
-    right: 722px !important;
-    border-radius: 15px;
-  }
-
-  #project1Card {
-    width: 300px;
-    height: 122px;
-    position: absolute;
-    left: 718px !important;
-    top: 57px !important;
-  }
-
-  #project-2 {
-    position: absolute;
-    right: 0px;
-    bottom: 0px;
-    left: 190px !important;
-    top: 903px !important;
-    height: 1920px;
-    width: auto;
-  }
-
-  #project-3 {
-    position: absolute;
-    right: 0px;
-    left: -799px;
-    top: 1981px !important;
-  }
-
-  #project3Card {
-    position: absolute;
-    width: 300px;
-    height: 170px;
-    left: 1488px !important;
-    top: 256px !important;
-  }
-
-  #project-4 {
-    position: absolute;
-    right: 0px;
-    bottom: 0px;
-    left: 41px !important;
-    height: 867px;
-    width: auto;
-    top: 2825px !important;
-  }
-
-  #project4Card {
-    width: 300px;
-    height: 150px;
-    position: absolute;
-    left: 106px !important;
-    top: 228px !important;
-  }
-}
-
-@media only screen and (max-width: 2560px) {
-  #project1Card {
-    width: 300px;
-    height: 122px;
-    position: absolute;
-    left: 716px !important;
-    top: 187px !important;
-  }
-
-  #Project1 {
-    position: absolute;
-    width: 34vw;
-    margin-left: 0px;
-    margin-bottom: 0px;
-    margin-top: 0px;
-    right: 198px !important;
-    top: -295.951px !important;
-    border-radius: 15px;
-  }
-
-  #project2Card {
-    width: 300px;
-    height: 150px;
-    position: absolute;
-    left: 1380px !important;
-    top: 838px !important;
-  }
-
-  #Project2 {
-    position: absolute;
-    width: 50vw;
-    border-radius: 15px;
-    left: -229px !important;
-    top: 664px !important;
-  }
-
-  #Project3 {
-    position: absolute;
-    width: 19vw;
-    top: 115px !important;
-    left: 2305px !important;
-    border-radius: 15px;
-  }
-
-  #project3Card {
-    position: absolute;
-    width: 300px;
-    height: 170px;
-    top: 389px !important;
-    left: 1299px !important;
-  }
-
-  #project4Card {
-    width: 300px;
-    height: 150px;
-    position: absolute;
-    left: 1390px !important;
-    top: 365px !important;
-  }
-
-  #Project4 {
-    position: absolute;
-    width: 40vw;
-    left: -51px !important;
-    top: 183px !important;
-    border-radius: 15px;
-  }
-
-  #project-1 {
-    top: 1304px !important;
-  }
-
-  #project-2 {
-    top: 2189px !important;
-  }
-
-  #project-3 {
-    top: 4081px !important;
-  }
-
-  #project-4 {
-    position: absolute;
-    right: 0px;
-    bottom: 0px;
-    left: 386px !important;
-    height: 867px;
-    width: auto;
-    bottom: -52px !important;
-    top: 5471px !important;
-  }
-}
-
-@media only screen and (max-width: 1920px) {
-  #projects {
-    font-family: "Montserrat";
-  }
-
-  /* Connect four in space */
-  #Project1 {
-    width: auto;
-    border-radius: 15px;
-    margin-left: 250px;
-    height: 1000px;
-  }
-
-  #Project2 {
-    width: auto;
-    margin-left: 0px;
-    margin-bottom: 0px;
-    margin-top: 0px;
-    border-radius: 15px;
-    height: 500px;
-    left: -444px !important;
-  }
-
-  #Project3 {
-    width: 19vw;
-    margin-left: 500px;
-    left: 828px !important;
-    right: 0px;
-    top: 303px !important;
-  }
-
-  #Project4 {
-    width: 40vw;
-    border-radius: 15px;
-    margin-left: 300px;
-    left: -386px !important;
-  }
-
-  #project1Card {
-    top: 16px !important;
-    left: 441px !important;
-  }
-
-  #project2Card {
-    inset: 741px -751px -441px 640.731px !important;
-    margin-top: 0px;
-  }
-
-  #project3Card {
-    width: 300px;
-    height: 170px;
-    margin-top: 140px;
-    left: 572px !important;
-    top: 362px !important;
-  }
-
-  #project4Card {
-    width: 300px;
-    height: 150px;
-    margin-left: 200px;
-    margin-top: 59px;
-    left: 694px !important;
-    top: 234px !important;
-  }
-
-  #title1 {
-    color: white;
-  }
-
-  #title2 {
-    color: white;
-  }
-
-  #title3 {
-    color: white;
-  }
-
-  #title4 {
-    color: white;
-  }
-
-  #Descrip1 {
-    color: white;
-  }
-
-  #Descrip2 {
-    color: white;
-  }
-
-  #Descrip3 {
-    color: white;
-  }
-
-  #Descrip4 {
-    color: white;
-  }
-
-  hr {
-    height: 5px;
-    background-color: #2c3d67;
-    width: 330px;
-    margin-left: -6px;
-    margin-top: 48px;
-  }
-
-  #project-1 {
-    top: 606px !important;
-    height: 940px;
-    width: auto;
-    flex-direction: row;
-    display: flex;
-  }
-
-  #project-2 {
-    height: 940px;
-    width: auto;
-    flex-direction: row;
-    display: flex;
-    margin: 200px;
-    top: 606px !important;
-  }
-
-  #project-3 {
-    display: flex;
-    flex-direction: row;
-    margin-left: 500px;
-    margin-bottom: 600px;
-    top: 2132px !important;
-  }
-
-  #project-4 {
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 600px;
-    left: 330px !important;
-    top: 3460px !important;
-  }
-
-  * {
-    opacity: 1;
   }
 }

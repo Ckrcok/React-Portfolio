@@ -68,31 +68,6 @@ html {
   left: -19px;
 }
 
-@media only screen and (min-width: 3840px) {
-  html {
-    width: 1440px;
-    height: 10000px;
-    margin: auto;
-    background: #181818;
-    background-image: url("./assets/Toronto2.png");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    scroll-behavior: smooth;
-    opacity: 1;
-    background-size: 111vw auto;
-  }
-
-  #shapes {
-    right: 24.4896vw !important;
-    top: 426px !important;
-  }
-  #bg4 {
-    top: 8872px !important;
-
-    left: 702px !important;
-  }
-}
-
 @media only screen and (max-width: 1280px) {
   #shapes {
     top: -45px;
@@ -135,30 +110,7 @@ html {
   }
 }
 
-@media only screen and (max-width: 2560px) {
-  #shapes {
-    z-index: -1;
-    position: absolute;
-    left: 299px !important;
-    top: 161px !important;
-    right: 16.8594vw !important;
-  }
-
-  #bg2 {
-    top: 1310px !important;
-  }
-
-  #bg4 {
-    width: 1932px;
-    height: 40vh;
-    background-size: 52% 50%;
-    position: absolute;
-    top: 9122px !important;
-    left: 362px !important;
-  }
-}
-
-@media only screen and (max-width: 1920px) {
+@media only screen and (max-width: 1920px) and (min-width: 1820px) {
   * {
     opacity: 1;
   }
@@ -217,5 +169,53 @@ html {
     position: absolute;
     left: 23.051px !important;
     top: 7026px !important;
+  }
+}
+
+@media only screen and (max-width: 2560px) and (min-width: 1920px) {
+  #shapes {
+    z-index: -1;
+    position: absolute;
+    left: 299px !important;
+    top: 161px !important;
+    right: 16.8594vw !important;
+  }
+
+  #bg2 {
+    top: 1310px !important;
+  }
+
+  #bg4 {
+    width: 1932px;
+    height: 40vh;
+    background-size: 52% 50%;
+    position: absolute;
+    top: 9122px !important;
+    left: 362px !important;
+  }
+}
+
+@media only screen and (min-width: 3840px) and (min-width: 2560px) {
+  html {
+    width: 1440px;
+    height: 10000px;
+    margin: auto;
+    background: #181818;
+    background-image: url("./assets/Toronto2.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    scroll-behavior: smooth;
+    opacity: 1;
+    background-size: 111vw auto;
+  }
+
+  #shapes {
+    right: 24.4896vw !important;
+    top: 426px !important;
+  }
+  #bg4 {
+    top: 8872px !important;
+
+    left: 702px !important;
   }
 }
