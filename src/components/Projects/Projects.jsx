@@ -13,7 +13,13 @@ function Projects(props) {
           data-aos-offset="0"
         >
           <h1 className="title is-3" id="title1">
-            {props.projects[0].name}
+            <a
+              href="https://ckrcok.github.io/Connect-Four-In-Space/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {props.projects[0].name}
+            </a>
           </h1>
           <hr />
           <p className="subtitle is-6" id="Descrip1">
@@ -35,7 +41,13 @@ function Projects(props) {
           data-aos-offset="0"
         >
           <h1 className="title is-3" id="title2">
-            {props.projects[1].name}
+            <a
+              href="https://jeanmodel.herokuapp.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {props.projects[1].name}
+            </a>
           </h1>
           <hr />
           <p className="subtitle is-6" id="Descrip2">
@@ -57,7 +69,13 @@ function Projects(props) {
           data-aos-offset="0"
         >
           <h1 className="title is-2" id="title3">
-            {props.projects[2].name}
+            <a
+              href="https://buzzcollectco.herokuapp.com"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {props.projects[2].name}
+            </a>
           </h1>
           <hr />
           <p className="subtitle is-6" id="Descrip3">
@@ -75,7 +93,13 @@ function Projects(props) {
           data-aos-offset="0"
         >
           <h1 className="title is-2" id="title3">
-            {props.projects[3].name}
+            <a
+              href="https://karmik.herokuapp.com/home"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {props.projects[3].name}
+            </a>
           </h1>
           <hr />
           <p className="subtitle is-6" id="Descrip4">
