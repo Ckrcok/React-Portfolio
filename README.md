@@ -17,9 +17,8 @@ This website was create in React, js and css
 :pencil
 
 - [x] upload to github
+- [x] Finsh the protfolio
 - [ ] Making a nice readme
-- [ ] Finsh the protfolio
-
 
 
 
