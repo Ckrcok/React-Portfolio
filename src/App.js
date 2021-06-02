@@ -32,8 +32,6 @@ class App extends React.Component {
   ];
 
   handleClick(e) {
-    console.log("Click");
-    console.log(e.target.innerHTML);
     if (e.target.innerHTML === "Game Development: “Connect 4” in Space") {
       window.scrollTo({
         top: 2050,
